@@ -53,7 +53,7 @@
 
 6. Bagaimana cara membuat project laravel menggunakan composer...
 
-    **a.	composer create-project --prefer-dist laravel/laravel NamaProject**
+    **a. composer create-project --prefer-dist laravel/laravel NamaProject**
 
     b.	composer project-create --prefer-dist laravel/laravel NamaProject
     
@@ -147,7 +147,7 @@
 
     a.	Middleware
     
-    **b.	Controller**
+    **b. Controller**
     
     c.	Routes
     
@@ -357,13 +357,13 @@
 
     d. Saat aplikasi dalam tahap persiapan
 
-30. Dimanakah letak menaruh file web.php
+30. Dimanakah letak menaruh file web.php...
 
     a.	Middleware
     
     b.	Controller
     
-    **c.Routes**
+    **c. Routes**
     
     d.	Migration 
 
@@ -399,7 +399,7 @@
 
     d. Components.js
 
-34. Berikut penulisan kode yang benar untuk import select2
+34. Berikut penulisan kode yang benar untuk import select2...
 
     a. import select2;
 
@@ -654,7 +654,7 @@
     c. Require kavist/rajaongkir:^1.1
 
     d. Download kavist/rajaongkir:^1.1
-    
+
 50. Dimana kita menaruh Api key dari Rajaongkir...
 
     a. Resource\Api
