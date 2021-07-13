@@ -50,15 +50,16 @@
     c. Model adalah yang menjembatani antara model dan view
 
     d. Model berguna untuk menampilkan tampilan
-6. Bagaimana cara mengintall laravel menggunakan composer...
 
-    a.	composer project-create --prefer-dist laravel/laravel blog
+6. Bagaimana cara membuat project laravel menggunakan composer...
+
+    **a.	composer create-project --prefer-dist laravel/laravel NamaProject**
+
+    b.	composer project-create --prefer-dist laravel/laravel NamaProject
     
-    **b.	composer create-project --prefer-dist laravel/laravel blog**
+    c.	composer laravel/laravel create-project --prefer-dist NamaProject
     
-    c.	composer laravel/laravel create-project --prefer-dist blog
-    
-    d.	composer --prefer-dist create-project laravel/laravel blog
+    d.	composer --prefer-dist create-project laravel/laravel NamaProject
 
 ## Import Data Seed Menggunakan File JSON
 
@@ -141,6 +142,7 @@
     d. Route::get('/home', function () {
         return redirect('/;);
     });
+
 14. Yang berfungsi sebagai jembatan antara model dan view adalah...
 
     a.	Middleware
@@ -652,6 +654,7 @@
     c. Require kavist/rajaongkir:^1.1
 
     d. Download kavist/rajaongkir:^1.1
+    
 50. Dimana kita menaruh Api key dari Rajaongkir...
 
     a. Resource\Api
