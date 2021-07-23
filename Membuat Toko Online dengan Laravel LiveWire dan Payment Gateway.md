@@ -191,3 +191,57 @@
     d. Semua salah
     
 19. 
+
+20.
+
+## Membuat Fitur Pencarian Data di Livewire
+
+21. Fungsi Where digunakan untuk...
+    
+    **a. Untuk pencarian data yang sesuai atau mirip apa yang dicari**
+
+    b. Untuk menampilkan data terbaru
+
+    c. Untuk mencari data yang tidak sesuai dengan yang dicari
+
+    d. Untuk mencari data yang baru dimasukan
+    
+22. Pada view index class col berguna untuk...
+    
+    **a. Berfungsi untuk membuat kolom baru**
+    
+    b. Berfungsi untuk membuat baris dan kolom baru
+    
+    c. Berfungsi untuk membuat baris
+    
+    d. Semua salah
+    
+23. Fungsi $this adalah...
+
+    a. Digunakan sebagai penunjuk kepada model, ketika kita mengaksesnya dari dalam class
+    
+    b. Digunakan sebagai penunjuk kepada variabel, ketika kita mengaksesnya dari dalam class
+    
+    **c. Digunakan sebagai penunjuk kepada objek, ketika kita mengaksesnya dari dalam class**
+    
+    d. Digunakan sebagai penunjuk kepada component, ketika kita mengaksesnya dari dalam class
+
+24. Latest() berguna untuk...
+    
+    **a. Mengambil data yang paling baru dari tabel database dan mengurutkannya**
+    
+    b. Mengambil data yang paling lama dari tabel database
+    
+    c. Mengambil data hanya satu record dari tabel database
+    
+    d. Semua salah
+    
+25. Apa kegunaan dari placeholder...
+
+    a. Berguna untuk penamaan name pada form
+    
+    b. Berguna untuk membuat tulisan menjadi tidak terlihat
+    
+    **c. Berguna untuk membuat tulisan dengan tujuan memberikan penamaan pada form**
+    
+    d. Semua salah
