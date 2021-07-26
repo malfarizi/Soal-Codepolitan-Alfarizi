@@ -245,3 +245,59 @@
     **c. Berguna untuk membuat tulisan dengan tujuan memberikan penamaan pada form**
     
     d. Semua salah
+ 
+
+## Membuat Form Create Product
+
+26. Perintah di bawah ini untuk membuat component create yang disimpan di folder product...
+    
+    a. Php artisan livewire product.create
+    
+    b. Php artisan livewire create.product
+    
+    c. Php artisan make:livewire create.product
+    
+    **d. Php artisan make:livewire product.create**
+
+27. Apa itu Bootstrap...
+
+    a. Bootstrap merupakan sebuah library framework CSS yang telah dibuat khusus uintuk mengembangkan back end sebuah website
+    
+    **b. Bootstrap merupakan sebuah library framework CSS yang telah dibuat khusus uintuk mengembangkan front end sebuah website**
+    
+    c. Bootstrap merupakan sebuah library framework CSS yang telah dibuat khusus uintuk mengembangkan front end dan back end sebuah website
+    
+    d. Semua salah
+    
+28. Input type untuk gambar...
+    
+    a. Input type="text"
+    
+    **b. Input type="file"**
+    
+    c. Input type="image"
+    
+    d. Input type="photo"
+
+29. Input type untuk masukan teks adalah...
+
+    **a. Input type="text**"
+    
+    b. Input type="file"
+    
+    c. Input type="image"
+    
+    d. Input type="photo"
+
+30. $emit digunakan untuk...
+
+    **a. Untuk berkomunikasi antar component**
+    
+    b. Untuk menampilkan component lain
+    
+    c. Untuk membuat component baru
+    
+    d. Semua salah
+    
+## Menyimpan Data Product Secara Realtime
+
