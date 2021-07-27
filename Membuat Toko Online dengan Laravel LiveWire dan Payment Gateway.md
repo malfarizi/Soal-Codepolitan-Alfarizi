@@ -303,56 +303,68 @@
 
 31. dd() digunakan untuk...
 
-    a.
+    a. Digunakan untuk sebagai helper untuk mengubah data
     
-    b.
+    b. Digunakan untuk sebagai helper untuk menambahkan data
     
-    c.
+    c. Digunakan untuk sebagai helper untuk menghapus data
     
     **d. Digunakan untuk sebagai helper untuk menampilkan data**
     
 32. Singkatan dd() adalah...
 
-    a.
+    a. Dump and dump
     
-    b.
+    b. Die and die
     
-    c.
+    c. Drop and die
     
-    **d. Dump and Die**
+    **d. Dump and die**
 
 33. Query Eloquent Laravel adalah...
 
     **a. Sebuah fitur untuk mengelola data yang ada pada database dengan mudah**
     
-    b.
+    b. Sebuah fitur untuk menampilkan data ke view
     
-    c.
+    c. Sebuah fitur untuk membuat model baru
     
-    d. 
+    d. Semua salah
     
 34. Method untuk menyimpan data product... 
 
+```
     **a. Product::create([
         'title' => $this->title,
         'price' => $this->price,
         'decription' => $this->decription,]);**
    
-   b.
+   b. Product::put([
+        'title' => $this->title,
+        'price' => $this->price,
+        'decription' => $this->decription,]);**
    
-   c.
+   c. Product::add([
+        'title' => $this->title,
+        'price' => $this->price,
+        'decription' => $this->decription,]);**
    
-   d.
+   d. Product::get([
+        'title' => $this->title,
+        'price' => $this->price,
+        'decription' => $this->decription,]);**
+
+```
  
 35. Listener digunanakan untuk...
 
-    a.
+    a. Merupakan fungsi untuk menambah suatu kegiatan yang terjadi disuatu objek
     
-    b.
+    b. Merupakan fungsi untuk menghapus suatu kegiatan yang terjadi disuatu objek
     
     **c. Merupakan fungsi untuk merespon suatu kegiatan yang terjadi disuatu objek**
     
-    d. 
+    d. Merupakan fungsi untuk mengubah suatu kegiatan yang terjadi disuatu objek
     
 ## Menambahkan Validasi Input di Livewire
 
