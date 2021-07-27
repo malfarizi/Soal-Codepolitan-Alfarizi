@@ -301,3 +301,124 @@
     
 ## Menyimpan Data Product Secara Realtime
 
+31. dd() digunakan untuk...
+
+    a.
+    
+    b.
+    
+    c.
+    
+    **d. Digunakan untuk sebagai helper untuk menampilkan data**
+    
+32. Singkatan dd() adalah...
+
+    a.
+    
+    b.
+    
+    c.
+    
+    **d. Dump and Die**
+
+33. Query Eloquent Laravel adalah...
+
+    **a. Sebuah fitur untuk mengelola data yang ada pada database dengan mudah**
+    
+    b.
+    
+    c.
+    
+    d. 
+    
+34. Method untuk menyimpan data product... 
+
+    **a. Product::create([
+        'title' => $this->title,
+        'price' => $this->price,
+        'decription' => $this->decription,]);**
+   
+   b.
+   
+   c.
+   
+   d.
+ 
+35. Listener digunanakan untuk...
+
+    a.
+    
+    b.
+    
+    **c. Merupakan fungsi untuk merespon suatu kegiatan yang terjadi disuatu objek**
+    
+    d. 
+    
+## Menambahkan Validasi Input di Livewire
+
+36. Required pada validate digunakan untuk...
+    
+    **a. Form harus diisi**
+    
+    b. Form menerima inputan maksimal 180 mb
+    
+    c. Form terdapat jumlah minimal karakter yang dapat diinputkan
+    
+    d. Form terdapat jumlah batas maksimal karakter yang dapat diinputkan
+    
+    
+37. Min pada validate digunakan untuk...
+
+    a. Form menerima inputan hanya lampiran sebuah berkas
+    
+    b. Form menerima inputan maksimal 180 mb
+    
+    **c. Form terdapat jumlah minimal karakter yang dapat diinputkan**
+    
+    d. Form terdapat jumlah batas maksimal karakter yang dapat diinputkan
+    
+38. Max pada validate digunakan untuk...
+
+    a. Form menerima inputan hanya lampiran sebuah berkas
+    
+    b. Form menerima inputan maksimal 180 mb
+    
+    c. Form terdapat jumlah minimal karakter yang dapat diinputkan
+    
+    **d. Form terdapat jumlah batas maksimal karakter yang dapat diinputkan**
+
+39. Numeric pada validate digunakan untuk...
+    
+    **a. Hanya menerima inputan berupa nomor**
+    
+    b. Hanya menerima inputan berupa huruf alfabet
+    
+    c. Hanya meneripa inputan berupa simbol
+    
+    d. Hanya menerima inputan berupa file
+    
+40. Penulisan kode program yang benar untuk menampilkan peringatan di form title....
+```
+    a. @error('title')
+        <span class="invalid-feedback"> 
+           <strong> {$message} </strong>
+        </span>
+       @enderror
+    
+    **b.  @error('title')
+        <span class="invalid-feedback"> 
+           <strong> {{$message}} </strong>
+        </span>
+        @enderror**
+```
+    c. @error('title')
+        <span class="invalid-feedback"> 
+           <strong> [[message]] </strong>
+        </span>
+        @enderror
+        
+    d. @error('title')
+        <span class="invalid-feedback"> 
+           <strong> {{message}} </strong>
+        </span>
+        @enderror
