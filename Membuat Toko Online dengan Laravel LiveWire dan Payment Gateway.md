@@ -342,17 +342,17 @@
    b. Product::put([
         'title' => $this->title,
         'price' => $this->price,
-        'decription' => $this->decription,]);**
+        'decription' => $this->decription,]);
    
    c. Product::add([
         'title' => $this->title,
         'price' => $this->price,
-        'decription' => $this->decription,]);**
+        'decription' => $this->decription,]);
    
    d. Product::get([
         'title' => $this->title,
         'price' => $this->price,
-        'decription' => $this->decription,]);**
+        'decription' => $this->decription,]);
 
 ```
  
@@ -434,3 +434,116 @@
            <strong> {{message}} </strong>
         </span>
         @enderror
+
+## Menampilkan Notifikasi
+
+41. Session flash adalah...
+
+     a. Adalah sebuah session yang sifatnya permanen dan bisa di akases di halaman tertentu yang kita definisikan
+     
+    **b. Adalah sebuah session yang sifatnya sementara dan bisa di akases di halaman tertentu yang kita definisikan**
+    
+    c. Adalah sebuah session yang sifatnya sementara dan bisa di akases di semua halaman 
+    
+    d. Adalah sebuah session yang sifatnya permanen dan bisa di akases di semua halaman 
+    
+42. Di method mana untuk menuliskan helper session flash...
+
+    a. Public function mount(){}
+    
+    b. Public function index(){}
+    
+    c. Public function render(){}
+    
+    **d. Public function productStoredHandler(){}**
+
+43. Di bawah ini penulisan helper session flash yang benar...
+
+```
+    **a. session()->flash('message', ' Your product was stored');**
+
+    b. session()->get->flash('message', ' Your product was stored');
+    
+    c. flash()->session('message', ' Your product was stored');
+    
+    d. session()->flash( $message , ' Your product was stored');
+```
+
+44. Bagaimana mendefinisikan session flash message pada view index...
+
+```
+    a. {{ session($message) }}
+    
+    b. {{ session(message) }}
+
+    **c. {{ session('message') }}**
+    
+    d. {{ flash('message') }}
+```
+
+45. Class alert untuk menampilkan notifikasi sukses...
+
+```
+    a. <div class="alert alert-danger"
+    
+    **b. <div class="alert alert-success"**
+    
+    c. <div class="alert alert-triumph"
+    
+    d. <div class="alert alert-true"
+```
+
+## Membuat Fungsi Upload File di Livewire
+
+46. Trait livewire untuk mengunggah gambar atau dokumen...
+
+    a. UploadWithFiles
+    
+    b. FileUploads
+    
+    c. WithUploadsfile
+    
+    **d. WithFileUploads**
+    
+47. TemporaryUrl() digunakan untuk...
+
+    a. Proses mengunggah file
+    
+    b. Untuk menunjukan menyimpan file yang diunggah 
+    
+    **c. Untuk menunjukan preview/pratinjau file yang diunggah sebelum disimpan**
+    
+    d. Semua salah
+    
+48. Validasi untuk menerima hanya masukan gambar adalah...
+
+    **a. 'gambar' => 'image'**
+    
+    b. 'gambar' => 'file'
+    
+    c. 'gambar' => 'picture'
+    
+    d. 'gambar' => 'imagefile'
+    
+49. Tag untuk menentukan tinggi gambar...
+
+    a. Width=""
+    
+    b. Size=""
+    
+    c. alt=""
+    
+    **d. Height=""**
+
+50. Method untuk mendapatkan ekstensi dari gambar yang diunggah oleh pengguna...
+```
+    a. $this->image->OriginalExtensionClient();
+    
+    b. $this->image->ClientOriginalExtension();
+    
+    c. $this->image->getOriginalExtension();
+    
+    **d. $this->image->getClientOriginalExtension();**
+
+## Membuat Form Update Product
+
