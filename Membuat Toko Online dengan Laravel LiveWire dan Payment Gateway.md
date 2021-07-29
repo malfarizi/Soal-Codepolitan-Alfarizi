@@ -544,6 +544,59 @@
     c. $this->image->getOriginalExtension();
     
     **d. $this->image->getClientOriginalExtension();**
-
+```
 ## Membuat Form Update Product
+
+51. Perintah untuk membuat component update dan disimpan di direktori product...
+
+    a. Php artisan make:livewire update
+    
+    b. Php artisan make:livewire update.product
+    
+    **c. Php artisan make:livewire product.update**
+    
+    d. Php artisan make:livewire product
+ 
+52. Method untuk mengubah data pada form update...
+
+    a. Change
+    
+    **b. Update**
+    
+    c. Edit
+    
+    d. Create
+    
+53. Negasi (!) adalah...
+
+    **a. Adalah pernyataan yang memiliki nilai kebenaran yang berlawanan dari pernyataan atau proposisi semula**
+    
+    b.
+    
+    c.
+    
+    d.
+    
+54. Pemanggilan Title menggunakan perulangan foreach pada tabel di index.blade.php...
+
+    a. {{ $product->$title }}
+    
+    **b. {{ $product->title }}**
+    
+    c. {{ $product=>title }}
+    
+    d. {{ product->title }}
+    
+55. Perintah untuk link storage pada laravel...
+
+    **a. php artisan storage:link**
+    
+    b. php artisan storage
+    
+    c. php artisan make:link storage
+    
+    d. php artisan make:storage
+    
+## Membuat Fungsi Update Product
+    
 
