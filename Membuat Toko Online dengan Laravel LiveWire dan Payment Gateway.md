@@ -571,11 +571,11 @@
 
     **a. Adalah pernyataan yang memiliki nilai kebenaran yang berlawanan dari pernyataan atau proposisi semula**
     
-    b.
+    b. Adalah pernyataan yang memiliki nilai kebenaran yang tidak berlawanan dari pernyataan atau proposisi semula
     
-    c.
+    c. Adalah pernyataan yang memiliki nilai salah yang berlawanan dari pernyataan atau proposisi semula
     
-    d.
+    d. Semua salah
     
 54. Pemanggilan Title menggunakan perulangan foreach pada tabel di index.blade.php...
 
@@ -599,4 +599,55 @@
     
 ## Membuat Fungsi Update Product
     
+56. Cara pemanggilan model Product yang benar...
+
+    a. Use Product;
+    
+    b. App\Product;
+    
+    **c. Use App\Product;**
+    
+    d. Use Public\App\Product;
+
+57. Eloquent find berguna untuk...
+
+    a. Perintah mengambil data sesuai dengan seconday key table
+     
+    **b. Perintah mengambil data sesuai dengan primary key table**
+    
+    c. Perintah mengambil data sesuai dengan data yang baru diinput ke dalam table database
+    
+    d. Semua salah
+
+58. Method untuk menghapus gambar product yang lama...
+
+    a. Storage::disk('public')->dump($product->image);
+    
+    b. Storage::disk('public')->drop($product->image);
+    
+    c. Storage::disk('public')->update($product->image);
+    
+    **d. Storage::disk('public')->delete($product->image);**
+    
+ 59. Slug adalah...
+ 
+    **a. Fungsi slug untuk memanggil data dengan judul, dan bisa juga untuk membuat url menjadi SEO Friendly**
+    
+    b. Fungsi slug untuk menjadikan data judul menjadi numeric
+    
+    c. Mengkonversi seluruh inputan menjadi hasing
+    
+    d. Semua salah
+    
+ 60. Uniqid digunakan untuk...
+ 
+    a. Untuk mendapatkan data sesuai id
+    
+    b. Untuk menghapus data lama
+    
+    c. Untuk mengubah data integer menjadi string
+    
+    **d. Untuk menghasilkan Id yang unik**
+
+## Membuat Fungsi Delete Product
 
