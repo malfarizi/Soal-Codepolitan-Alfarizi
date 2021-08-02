@@ -640,7 +640,7 @@
     d. Semua salah
     
  60. Uniqid digunakan untuk...
- 
+
     a. Untuk mendapatkan data sesuai id
     
     b. Untuk menghapus data lama
@@ -651,3 +651,169 @@
 
 ## Membuat Fungsi Delete Product
 
+61. Penulisan kode program event click pada tombol delete Product...
+```
+    **a. <button wire:click="deleteProduct({{ $product->id }})" class="btn btn-sm btn-danger">Delete</button>**
+    
+    b. <button click:wire="deleteProduct({{ $product->id }})" class="btn btn-sm btn-danger">Delete</button>
+    
+    c. <button click="deleteProduct({{ $product->id }})" class="btn btn-sm btn-danger">Delete</button>
+    
+    d. <button wire:klik="deleteProduct({{ $product->id }})" class="btn btn-sm btn-danger">Delete</button>
+```
+
+62. Pada tombol delete btn-danger akan menjadikan tombol berwarna...
+
+    a. Hijau
+    
+    b. Ungu
+    
+    c. Biru
+    
+    **d. Merah**
+    
+63. Isi parameter pada method deleteProduct()...
+
+    a. $idProduct
+    
+    b. $title
+    
+    c. $price
+    
+    **d. $productId**
+
+64. Method untuk menghapus data product...
+
+    a. product->remove();
+    
+    b. product->dump();
+    
+    c. product->drop();
+    
+    **d. $product->delete();**
+    
+65. Tag html untuk membuat tombol...
+```
+    a. <switch>
+    
+    **b. <button>**
+    
+    c. <knob>
+    
+    d. <lever>
+```
+
+# Halaman Shop
+
+## Membuat Halaman Daftar Product
+
+66. Perintah untuk membuat component index di dalam folder shop...
+
+    a. php artisan make:livewire shop
+    
+    b. php artisan make:livewire index.shop
+    
+    c. php artisan make:livewire index
+    
+    **d. php artisan make:livewire shop.index**
+
+67. Tag html ```<li>``` berguna untuk...
+
+    a. Untuk membuat kolom baru
+    
+    b. Untuk membuat header dari tabel
+    
+    c. Untuk membuat ordered list
+    
+    **d. Untuk membuat list item**
+
+68. Pada view index terdapat class container, container digunakan untuk...
+
+    **a. Untuk wadah yang menampung semua element grid sistem dari bootstrap**
+    
+    b. Untuk wadah yang menampung semua javascript sistem dari bootstrap
+    
+    c. Untuk wadah yang menampung semua controller pada laravel
+    
+    d. Semua salah
+    
+69. Perulangan apa yang digunakan untuk menampilkan product...
+
+    **a. Foreach**
+    
+    b. For
+    
+    c. While
+    
+    d. Do while
+    
+70. Letak view dari index shop...
+
+    a. Resources/views/shop/index.blade.php
+    
+    b. Resources/livewire/shop/index.blade.php
+    
+    c. Resources/views/shop/livewire/index.blade.php
+    
+    **d. Resources/views/livewire/shop/index.blade.php**
+
+## Membuat Helper Shopping Cart
+
+71. Setter adalah...
+
+    a. Adalah method yang digunakan untuk menyimpan data ke tabel database
+    
+    b. Adalah method yang digunakan untuk menyisipkan satu atau lebih ke elemen terakhir dari array
+    
+    **c. Adalah method yang digunakan untuk memberikan nilai pada attribute**
+    
+    d. Adalah method yang digunakan untuk mendapatkan nilai dari attribute
+
+72. Getter adalah...
+
+    **a. Getter digunakan untuk mendapatkan nilai dari attribute**
+    
+    b. Adalah method yang digunakan untuk memberikan nilai pada attribute
+    
+    c. Adalah method yang digunakan untuk menyisipkan satu atau lebih ke elemen terakhir dari array
+    
+    d. Adalah method yang digunakan untuk menyimpan data ke tabel database
+
+73. Array_splice() digunakan untuk...
+
+    a. Digunakan untuk mendapatkan nilai dari attribute
+    
+    b. Digunakan untuk menyisipkan satu atau lebih ke elemen terakhir dari array
+    
+    **c. Digunakan untuk menghapus elemen yang dipilih dari array dan menggantinya dengan elemen baru**
+    
+    d. Digunakan untuk mendapatkan sebuah value yang ada di array, dan memunculkan output berupa key yang memiliki value yang di cari
+
+74. Array_search() digunakan untuk...
+
+    a. Digunakan untuk menghapus elemen yang dipilih dari array dan menggantinya dengan elemen baru
+    
+    b. Digunakan untuk mendapatkan nilai dari attribute
+    
+    **c. Digunakan untuk mencari sebuah value yang ada di array, dan memunculkan output berupa key yang memiliki value yang di cari**
+    
+    d. Semua salah
+    
+75. Penulisan method get untuk mendapatkan data yang ada di cart...
+```
+
+    **a. Public function get(){
+       return request()->session()->get('cart')
+    }**
+    
+    b. Public function get(){
+       return request()->session->get('cart')
+    
+    c. Public function get(){
+       return request()->get('cart')
+    
+    d. Public function get(){
+       return session()->return()->get('cart')
+    
+```
+## Cara Membuat Facade di Laravel
