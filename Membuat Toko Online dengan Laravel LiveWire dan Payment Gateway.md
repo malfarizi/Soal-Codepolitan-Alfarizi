@@ -817,3 +817,170 @@
     
 ```
 ## Cara Membuat Facade di Laravel
+
+76. Penulisan yang benar untuk import facade...
+
+    a. Use Illuminate\Support\Facade;
+    
+    b. Use Illuminate\Facades\Facade;
+    
+    c. Use Facade:
+    
+    **d. Use Illuminate\Support\Facades\Facade;**
+
+77. Namespace dari facade...
+
+    **a. Namespace App\Facades;**
+    
+    b. Namespace Facades;
+    
+    c. Namespace App\Model\Facades;
+    
+    d. Namespace App\livewire\Facades;
+    
+78. Perintah untuk membuat service provider baru...
+
+    **a. Php artisan make:provider nama_provider**
+    
+    b. Php artisan make:storage nama_provider
+    
+    c. Php artisan make:link nama_provider
+    
+    d. Php artisan provider nama_provider
+
+79. Penulisan Aplication Service Provider untuk cart...
+
+    a. App\Providers\CartServiceProvider
+    
+    **b. App\Providers\CartServiceProvider::class**
+    
+    c. App\CartServiceProvider::class
+    
+    d. Providers\CartServiceProvider::class
+
+80. Aliases untuk cart...
+    
+    a. 'Cart' > App\Facades\Cart::class
+    
+    b. 'Cart' -> App\Facades\Cart::class
+    
+    **c. 'Cart' => App\Facades\Cart::class**
+    
+    d. 'Cart' => App\Facades\Facade\Cart::class
+
+## Implementasi Fungsi Add To Cart
+
+81. Parameter yang digunakan pada method addToCart...
+
+    a. $price
+    
+    b. $product
+    
+    c. $title
+    
+    **d. $productId**
+
+82. Method untuk menambahkan product ke cart...
+
+    a. Cart::addto($product);
+    
+    b. Cart::push($product);
+    
+    c. Cart::get($product);
+    
+    **d. Cart::add($product);**
+
+83. Perintah untuk membuat component cartnav di dalam folder shop... 
+
+    a. php artisan make:livewire cartnav
+    
+    **b. php artisan make:livewire shop.cartnav**
+    
+    c. php artisan make:livewire shop->cartnav
+    
+    d. php artisan make:component shop.cartnav
+
+84. Count digunakan untuk...
+
+    a. Untuk menghapus data product yang ada di shopping cart
+    
+    b. Untuk menambah product ke dalam shopping cart
+    
+    **c. Untuk menghitung data product yang masuk ke shopping cart**
+    
+    d. Untuk menampilkan data product yang ada di shopping cart
+
+85. Penulisan kode program untuk melihat berapa data product yang ada pada session cart...
+
+    **a. ( {{ $cartTotal }} )**
+    
+    b. count->( {{ $cartTotal }} )
+    
+    c. ( {{ $Total }} )
+    
+    d. ( {{ $cart }} )
+    
+# Halaman Shopping Cart
+## Membuat Halaman Shopping Cart
+
+86. Perintah untuk membuat component cart di dalam folder shop... 
+
+    a. Php artisan make:livewire cart.shop
+    
+    b. Php artisan make:controller shop.cart
+    
+    c. Php artisan make:livewire cart
+    
+    **d. Php artisan make:livewire shop.cart**
+
+87. Tag html untuk membuat tabel
+```
+    a. <table>
+    
+    b. <thead>
+    
+    c. <tfoot>
+    
+    d. <border>
+```
+88. Thead berguna untuk...
+
+    **a. Berguna untuk mengelompokkan isi atau konten yang berada di bagian atas (kepala) pada sebuah tabel**
+    
+    b. Berguna untuk mengelompokkan isi atau konten yang berada di bagian bawah (kaki) sebuah tabel
+    
+    c. Berguna untuk mengelompokkan konten atau isi yang terletak pada bagian tengah (tubuh) sebuah tabel
+    
+    d. Berguna untuk mengelompokkan isi atau konten yang berada di bagian atas (kepala) dan bawah (kaki) pada sebuah tabel
+
+89. Tfoot berguna untuk
+
+    a. Berguna untuk mengelompokkan isi atau konten yang berada di bagian atas (kepala) pada sebuah tabel
+    
+    **b. Berguna untuk mengelompokkan isi atau konten yang berada di bagian bawah (kaki) sebuah tabel**
+    
+    c. Berguna untuk mengelompokkan konten atau isi yang terletak pada bagian tengah (tubuh) sebuah tabel
+    
+    d. Berguna untuk mengelompokkan isi atau konten yang berada di bagian atas (kepala) dan bawah (kaki) pada sebuah tabel
+
+90. Penulisan route untuk halaman cart...
+
+    **a. Route::livewire('/cart', 'shop.index')->name('shop.cart');**
+    
+    b. Route::get('/cart', 'shop.index')->name('shop.cart');
+    
+    c. Route::livewire->get('/cart', 'shop.index')->name('shop.cart');
+    
+    d. Route::post('/cart', 'shop.index')->name('shop.cart');
+    
+## Membuat Fungsi Remove Product
+
+91.
+
+92.
+
+93.
+
+94.
+
+95. 
