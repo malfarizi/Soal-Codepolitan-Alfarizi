@@ -975,12 +975,181 @@
     
 ## Membuat Fungsi Remove Product
 
-91.
+91. Method yang digunakan untuk remove product pada cart...
 
-92.
+    a. Delete
+    
+    b. Dump
+    
+    c. Drop
+    
+    **d. Remove**
 
-93.
+92. Isi parameter pada method removeFromcart()...
 
-94.
+    a. $idProduct
+    
+    b. $title
+    
+    **c. $id**
+    
+    d. $productId
 
-95. 
+93. Pemanggilan Facade cart pada method remove product...
+
+    a. FacadesCart::delete($id);
+    
+    b. FacadesCart::drop($id);
+    
+    **c. FacadesCart::remove($id);**
+    
+    d. FacadesCart::remove($Productid);
+
+94. Event click pada tombol remove...
+
+    a. Wire:click="removeFromCart({{ product-id }})
+    
+    b. Wire:click="removeFromCart({{ id }})
+    
+    **c. Wire:click="removeFromCart({{ $product-id }})"**
+    
+    d. Wire:click="removeFromCart({{ $product-productId }})
+
+95. Penulisan import component livewire yang benar...
+
+    a. Use Component\Livewire;
+    
+    b. Use Facades\Livewire\Component;
+    
+    c. Use Component;
+    
+    **d. Use Livewire\Component;**
+
+## Membuat Komponen Livewire untuk Checkout
+
+96. Perintah untuk membuat component checkout di dalam folder shop...
+
+    a. php artisan make:livewire shop
+    
+    b. php artisan make:livewire checkout.shop
+    
+    c. php artisan make:livewire checkout
+    
+    **d. php artisan make:livewire shop.checkout**
+
+97. Route untuk halaman checkout...
+
+    **a. Route::livewire('/checkout', 'shop.checkout')->name('shop.checkout');**
+    
+    b. Route::get('/checkout', 'shop.checkout')->name('shop.checkout');
+    
+    c. Route::livewire->get('/checkout', 'shop.checkout')->name('shop.checkout');
+    
+    d. Route::post('/checkout', 'shop.checkout')->name('shop.checkout');
+
+98. Method checkout digunakan untuk...
+
+    a. Untuk mengubah product yang ada di cart
+    
+    b. Untuk menambah product baru ke cart
+    
+    c. Untuk menghapus product yang ada di cart
+    
+    **d. Untuk submit data saat proses biling address**
+
+99. Validasi email agar form isian diminta memasukan dalam bentuk email...
+    
+    **a. 'email' => 'required|email'**
+    
+    b. 'email' => 'required|gmail'
+    
+    c. 'email' => 'required'
+    
+    d. 'email' => 'required|mail'
+    
+100. Penulisan property first_name yang benar pada checkout.php...
+
+    **a. Public $first_name;**
+    
+    b. Public $firstname;
+    
+    c. $first_name;
+    
+    d. Protected $first_name;
+
+## Menampilkan Halaman Checkout Beserta Validasinya
+
+101. Dibutuhkan atau tidak extend dan section pada livewire...
+    
+    a. Terkadang
+    
+    b. Ya
+    
+    **c. Tidak**
+    
+    d. Semua salah
+
+102. Class form-group digunakan untuk...
+    
+    a. Untuk menyimpan isian form ke database
+    
+    b. Untuk membuat elemen baru
+    
+    c. Untuk menampilkan form 
+    
+    **d. Untuk membalut elemen sebuah form seperti label dan formnya**
+
+103. Penulisan untuk menampilkan error inputan first_name...
+
+```
+    a. @error('first_name')
+        <span class="invalid-feedback"> 
+            <strong>{{ $message }}</strong>
+        </span>
+       @enderror
+    
+    **b. @error('first_name')
+        <span class="invalid-feedback"> 
+            <strong>{{ $message }}</strong>
+        </span>
+       @enderror**
+    
+    c. @error('first_name')
+        <span class="invalid-feedback"> 
+            <strong>{{ message }}</strong>
+        </span>
+       @enderror
+    
+    d. @error('first_name')
+        <span class="invalid-feedback"> 
+            <strong>(( $message ))</strong>
+        </span>
+       @enderror
+    
+ ```
+
+104. Input type untuk email...
+
+    a. Textarea
+    
+    b. String
+    
+    c. Text
+    
+    **d. Email**
+
+105. Yang dimaksud postal code adalah...
+
+    a. Alamat
+    
+    **b. Kode pos**
+    
+    c. Kota
+    
+    d. Provinsi
+
+## Installasi dan Konfigurasi Payment Gateway di Laravel
+
+## Implementasi Payment Gateway Midtrans
+
+## Menginstall Turbolinks untuk SPA
