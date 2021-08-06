@@ -190,9 +190,25 @@
     
     d. Semua salah
     
-19. 
+19. Didalam <select> terdapat <option>, <option> adalah...
 
-20.
+    a. Berisi elemen kolom dan baris
+    
+    b. Berisi daftar pilihan (opsi) yang dapat dipilih oleh user
+    
+    c. Berisi daftar pilihan (opsi) yang hanya dapat dilihat oleh user
+    
+    d. Digunakan untuk mengelompokkan elemen atau tag-tag agar menjadi suatu grup
+
+20. Attribute name pada html adalah...
+
+    a. memberi label pada bidang yang digunakan oleh JavaScript
+    
+    b. Digunakan untuk mengidentifikasi elemen HTML melalui Document Object Model 
+    
+    **c. Digunakan saat mengirim data dalam pengiriman formulir**
+    
+    d. Digunakan untuk mengelompokkan elemen atau tag-tag agar menjadi suatu grup
 
 ## Membuat Fitur Pencarian Data di Livewire
 
@@ -246,7 +262,6 @@
     
     d. Semua salah
  
-
 ## Membuat Form Create Product
 
 26. Perintah di bawah ini untuk membuat component create yang disimpan di folder product...
@@ -353,7 +368,6 @@
         'title' => $this->title,
         'price' => $this->price,
         'decription' => $this->decription,]);
-
 ```
  
 35. Listener digunanakan untuk...
@@ -422,7 +436,7 @@
            <strong> {{$message}} </strong>
         </span>
         @enderror**
-```
+
     c. @error('title')
         <span class="invalid-feedback"> 
            <strong> [[message]] </strong>
@@ -434,6 +448,8 @@
            <strong> {{message}} </strong>
         </span>
         @enderror
+        
+```
 
 ## Menampilkan Notifikasi
 
@@ -536,6 +552,7 @@
     **d. Height=""**
 
 50. Method untuk mendapatkan ekstensi dari gambar yang diunggah oleh pengguna...
+
 ```
     a. $this->image->OriginalExtensionClient();
     
@@ -545,6 +562,7 @@
     
     **d. $this->image->getClientOriginalExtension();**
 ```
+
 ## Membuat Form Update Product
 
 51. Perintah untuk membuat component update dan disimpan di direktori product...
@@ -652,6 +670,7 @@
 ## Membuat Fungsi Delete Product
 
 61. Penulisan kode program event click pada tombol delete Product...
+
 ```
     **a. <button wire:click="deleteProduct({{ $product->id }})" class="btn btn-sm btn-danger">Delete</button>**
     
@@ -660,6 +679,7 @@
     c. <button click="deleteProduct({{ $product->id }})" class="btn btn-sm btn-danger">Delete</button>
     
     d. <button wire:klik="deleteProduct({{ $product->id }})" class="btn btn-sm btn-danger">Delete</button>
+    
 ```
 
 62. Pada tombol delete btn-danger akan menjadikan tombol berwarna...
@@ -693,6 +713,7 @@
     **d. $product->delete();**
     
 65. Tag html untuk membuat tombol...
+
 ```
     a. <switch>
     
@@ -701,6 +722,7 @@
     c. <knob>
     
     d. <lever>
+    
 ```
 
 # Halaman Shop
@@ -800,6 +822,7 @@
     d. Semua salah
     
 75. Penulisan method get untuk mendapatkan data yang ada di cart...
+
 ```
 
     **a. Public function get(){
@@ -814,8 +837,9 @@
     
     d. Public function get(){
        return session()->return()->get('cart')
-    
+       
 ```
+
 ## Cara Membuat Facade di Laravel
 
 76. Penulisan yang benar untuk import facade...
@@ -933,7 +957,8 @@
     
     **d. Php artisan make:livewire shop.cart**
 
-87. Tag html untuk membuat tabel
+87. Tag html untuk membuat tabel...
+
 ```
     a. <table>
     
@@ -942,7 +967,9 @@
     c. <tfoot>
     
     d. <border>
+    
 ```
+
 88. Thead berguna untuk...
 
     **a. Berguna untuk mengelompokkan isi atau konten yang berada di bagian atas (kepala) pada sebuah tabel**
@@ -1144,12 +1171,169 @@
     
     **b. Kode pos**
     
-    c. Kota
+    c. Kode Kota
     
-    d. Provinsi
+    d. Kode Provinsi
 
+# Integrasi Payment Gateway
 ## Installasi dan Konfigurasi Payment Gateway di Laravel
 
+106. Payment gateway yang digunakan dalam project ini adalah...
+
+    a. iPaymu
+
+    b. Faspay
+
+    c. Doku
+
+   **d. Midtrans**
+
+107. Perintah untuk install midtrans menggunakan composer...
+
+    a.  Composer midtrans/midtrans-php
+
+    **b. Composer require midtrans/midtrans-php**
+
+    c.  Composer require midtrans
+
+    d.  Composer require laravel/midtrans/midtrans-php
+
+108. Dimana kita mendapatkan client key dari midtrans...
+
+    a. Terdapat di file app.php
+
+    b. Website Laravel Mix
+
+    c. Website Laravel
+
+    **d. Website Midtrans**
+
+109. Pemanggilan client key menggunakan helper config...
+
+``` 
+    a. {{ config('services=>midtrans=>clientKey') }}
+
+    b. {{ config->get('services.midtrans.clientKey') }}
+    
+    c. {{ config('services,midtrans,clientKey') }}
+
+    **d. {{ config('services.midtrans.clientKey') }}**
+
+```
+
+110. Jika aplikasi masih dalam tahap development, maka isProduction diisi dengan nilai...
+
+    a. True
+
+    **b. False**
+
+    c. Nor
+
+    d. Right
+    
 ## Implementasi Payment Gateway Midtrans
 
+111. Variable $amount digunakan untuk...
+
+    a. Semua salah
+
+    b. Menghitung jumlah product yang ada di shopping cart
+
+    c. Berfungsi untuk menghitung jumlah suatu elemen yang terdapat di dalam array
+
+    **d. Menyimpan jumlah harga dari seluruh product yang ada di shopping cart**
+
+112. Array_sum digunakan untuk...
+
+    a. Menambahkan product ke dalam shopping cart
+
+    b. Mengubah isi product di dalam shopping cart
+
+    **c. Berfungsi untuk menghitung jumlah suatu elemen yang terdapat di dalam array**
+
+    d. Menghitung jumlah product yang ada di shopping cart
+
+113. Method clear() digunkan untuk...
+
+    a. Menghitung total product yang ada di shopping cart
+
+    b. Mengubah isi product di dalam shopping cart
+
+    c. Menambahkan product ke dalam shopping cart
+
+    **d. Menghapus seluruh data yang ada di shopping cart**
+
+114. Penulisan isi dari variable $snapToken...
+     
+``` 
+    **a. $snapToken = \Midtrans\Snap::getSnapToken($payload);**
+
+    b. $snapToken = \Midtrans\Snap::getSnapToken(payload)
+
+    c. $snapToken = \Midtrans\Snap::getSnapToken{{ $payload }}
+
+    d. $snapToken = \Midtrans\SnapToken::getSnapToken($payload)
+    
+```
+
+115. Isi dari tombol payment menggunakan directive wire:click adalah...
+
+    a. wire:click="$emit('payment', '(( $snapToken ))')
+
+    b. wire:click="$emit('payment', '{{ snapToken }}')
+
+    **c. wire:click="$emit('payment', '{{ $snapToken }}')"**
+
+    d. action="$emit('payment', '{{ $snapToken }}')
+
 ## Menginstall Turbolinks untuk SPA
+
+116. Single Page Application adalah...
+
+    a. Aplikasi yang berkerja di dalam browser yang perlu membutuhkan reload page saat digunakan
+
+    **b. Aplikasi yang bekerja di dalam browser yang tidak membutuhkan reload page saat digunakan**
+
+    c. Aplikasi yang berkerja di dalam browser yang terkadang perlu reload page saat digunakan
+
+    d. Semua salah
+
+117. Turbolinks digunakan untuk...
+
+    a. Semua salah
+
+    b. Untuk membuat sebuah navigasi website / aplikasi kita menjadi cepat terkadang perlu melakukan reload halaman
+
+    c. Untuk membuat sebuah navigasi website / aplikasi kita menjadi cepat dengan melakukan reload halaman
+
+   **d. Untuk membuat sebuah navigasi website / aplikasi kita menjadi cepat tanpa harus melakukan reload halaman**
+
+118. Perintah untuk menginstall package / modul yang ada di node.js...
+
+    a. Install npm
+
+    **b. Npm Install**
+
+    c. Npm Install package
+
+    d. Package Install npm
+
+119. Perintah untuk install package turbolinks
+
+    **a. Npm install --save turbolinks**
+
+    b. Npm install turbolinks
+
+    c. Npm save turbolinks
+
+    d. Npm turbolinks
+
+120.  Kapan npm run prod digunakan...
+
+    **a. Saat aplikasi sudah dalam tahap produksi atau publish**
+
+    b. Saat aplikasi sedang dalam tahap development
+
+    c. Saat aplikasi sedang dalam tahap menentukan kebutuhan fungsional
+
+    d. Saat aplikasi dalam tahap persiapan
