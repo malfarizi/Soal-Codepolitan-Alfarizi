@@ -190,7 +190,7 @@
     
     d. Semua salah
     
-19. Didalam <select> terdapat <option>, <option> adalah...
+19. Didalam ```<select>``` terdapat ```<option>, <option>``` adalah...
 
     a. Berisi elemen kolom dan baris
     
