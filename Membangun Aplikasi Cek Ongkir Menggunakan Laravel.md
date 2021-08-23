@@ -327,7 +327,7 @@
 
     d. App\app.js
 
-27. Perintah npm install berguna untuk...
+27. Perintah F install berguna untuk...
     
     a. Untuk menghasilkan file model baru
 
