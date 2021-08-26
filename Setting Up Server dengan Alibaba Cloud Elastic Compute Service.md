@@ -320,7 +320,7 @@
 ```
     a. php artisan clone <link project github>
 
-    b. Git clone <link project github>
+    **b. Git clone <link project github>**
 
     c. clone git <link project github>
 
