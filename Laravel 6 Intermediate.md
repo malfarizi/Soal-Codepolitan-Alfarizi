@@ -139,4 +139,563 @@
 
 ## Install Laravel Homestead Ubuntu
 
-14. 
+14. Dibawah ini selain sistem operasi...
+
+    a. Linux
+
+    b. MacOS
+
+    **c. Nginx**
+
+    d. Windows
+
+15. Digunakan untuk apa Tools DBeaver...
+    
+    **a. Sebagai database client**
+
+    b. Sebagai Text editor
+
+    c. Sebagai web browser
+
+    d. Sebagai web server
+
+16. Perintah untuk melihat Vagrant sudah terinstall...
+
+    a. Perintah Git
+
+    b. Perintah Artisan
+
+    c. Perintah Composer
+
+    **d. Perintah Vagrant**
+
+17.  Apa fungsi dari perintah sudo apt update...
+    
+    a. Untuk melihat daftar paket yang ada di repositori
+    
+    b. Untuk konfigurasi server
+    
+    **c. Untuk meng-update daftar paket yang tersedia di repositori sekaligus memeriksa apakah ada pembaruan versi paket yang tersedia untuk diunduh**
+    
+    d. Semua salah
+
+18. Perintah untuk install git di Ubuntu...
+
+    a. Sudo apt download git
+
+    **b. Sudo apt install git**
+
+    c. Sudo apt get git
+
+    d. Sudo apt install git
+
+## Install Database Client Ubuntu
+
+19. Nano adalah...
+
+    a. Web Browser
+
+    b. Database Client
+
+    c. Web Server
+
+    **d. Text Editor**
+
+20. Virtualbox digunakan untuk...
+
+    **a. Virtualisasi sistem operasi**
+
+    b. Virtualisasi perangkat lunak
+
+    c. Virtualisasi perangkat keras
+
+    d. Virtualisasi software
+
+21. Yang dimaksud dengan Vagrant up...
+
+22. Yang dimaksud dengan Vagrant Provision...
+    
+## Install Laravel Homstead macOS
+
+23. Web Server adalah...
+
+    a. Merupakan sebuah perangkat keras dalam server yang berfungsi menerima permintaan (request) berupa halaman web melalui HTTP atau HTTPS dan mengirimkan kembali (response)
+
+   **b. Merupakan sebuah perangkat lunak dalam server yang berfungsi menerima permintaan (request) berupa halaman web melalui HTTP atau HTTPS dan mengirimkan kembali (response)**
+
+    c. Merupakan sebuah perangkat lunak yang mengelola database
+    
+    d. Semua salah
+24. Dibawah ini adalah jenis web server...
+
+   **a. NginX**
+
+    b. MySQL
+
+    c. Opera Browser
+
+    d. Composer
+
+25. Saat perintah Vagrant destroy dieksekusi, selanjutnya apa yang akan terjadi...
+
+    **a. Akan mengapus seluruh resource yang telah dibuat**
+
+    b. Akan menambah resource baru
+
+    c. AKan menghapus seluruh database
+    
+    d. Akan mengubah seluruh resource yang telah dibuat
+
+## Install Database Client macOS
+
+26. Singkatan IP...
+
+    a. Internet Preset
+
+    **b. Internet Protocol**
+
+    c. Internal Protocol
+
+    d. Internet Provider
+
+27
+
+28
+
+# Konsep Dasar Service Container
+## Konsep Dasar Service Container
+
+29. Fungsi $this adalah...
+
+    a. Digunakan sebagai penunjuk kepada model, ketika kita mengaksesnya dari dalam class
+    
+    b. Digunakan sebagai penunjuk kepada variabel, ketika kita mengaksesnya dari dalam class
+    
+    **c. Digunakan sebagai penunjuk kepada objek, ketika kita mengaksesnya dari dalam class**
+    
+    d. Digunakan sebagai penunjuk kepada component, ketika kita mengaksesnya dari dalam class
+
+30. Fungsi Laravel Reflection adalah...
+
+    **a. Kemampuan untuk mendapatkan jenis atau metode suatu objek ketika Anda tidak tahu apa jenis objeknya**
+
+    b. Kemampuan untuk mendupilkasi tabel database
+
+    c. Kemampuan untuk mendapatkan variabel ketika Anda tidak tahu apa jenis variabelnya
+
+    d. Semua salah
+
+31. Yang dimaksud dengan method construct...
+
+    a. Adalah sebagai media transfer data aman yang bisa digunakan secara remote atau dari jarak jauh
+
+    b. Meng-update record tabel database secara acak untuk digunakan sebagai dummy data atau data sebagai testing
+
+    c.  Merupakan suatu method yang akan memberikan nilai awal pada saat suatu objek dibuat
+
+    **d.  Merupakan suatu method yang akan memberikan nilai awal pada saat suatu objek dibuat**
+
+32. Array asosiatif adalah...
+
+    a. Array asosiatif adalah array yang menggunakan angka sebagai kunci di setiap nilainya
+
+    **b. Array asosiatif adalah array yang tidak menggunakan angka sebagai kunci di setiap nilainya**
+
+    c. adalah suatu istilah untuk sebuah array, yang mana ia memiliki item berupa array yang lain
+
+    d. adalah array yang setiap itemnya terbedakan dengan indeks tertentu
+
+33. Singkatan dd() adalah...
+
+    a. Dump and dump
+    
+    b. Die and die
+    
+    c. Drop and die
+    
+    **d. Dump and die**
+
+34. dd() digunakan untuk...
+
+    a. Digunakan untuk sebagai helper untuk mengubah data
+    
+    b. Digunakan untuk sebagai helper untuk menambahkan data
+    
+    c. Digunakan untuk sebagai helper untuk menghapus data
+    
+    **d. Digunakan untuk sebagai helper untuk menampilkan data**
+
+# Artisan Console
+## Membuat Console dan Menambahkan Parameter
+
+35. Perintah untuk membuat command artisan baru...
+
+    a. php artisan make:order nama_perintah
+
+    b. php artisan nama_perintah
+
+    c. php artisan command nama_perintah
+
+    **d. php artisan make:command nama_perintah**
+
+36. Di mana letak file perintah yang baru dibuat...
+
+    **a. App\Console\Commands**
+
+    b. App\Commands
+
+    c. App\Console\Http\Commands
+
+    d. App\Console\Controller\Commands
+
+37. Perintah untuk melihat bantuan dari perintah artisan...
+
+    a. help
+
+    b. Artisan help
+
+    c. Php help
+
+    **d. Php artisan help**
+
+38. Perintah untuk menjalankan aplikasi pada localhost...
+
+    a. Nano artisan serve
+
+    b. Console artisan serve
+
+    c. Php serve
+
+    **d. Php artisan serve**
+
+39. Di method mana kita menempatkan perintah logic pada command artisan yang baru...
+    
+    **a. handle();**
+
+    b. __construct()
+
+    c. $signature
+
+    d. $description
+
+## Handle Logic dan Menampilkan Nilai Parameter
+
+40. Method info() digunakan untuk...
+
+    a. Menempatkan perintah logic pada command artisan yang baru
+
+    b. Untuk menampilkan informasi jika terjadi kesalahan
+
+    c. Digunakan untuk menampilkan deskripsi dari perintah yang dibuat
+
+    **d. Untuk menampilkan informasi di terminal**
+
+41. Method error() digunakan untuk...
+
+    a. Menempatkan perintah logic pada command artisan yang baru
+
+    **b. Untuk menampilkan informasi jika terjadi kesalahan**
+
+    c. Digunakan untuk menampilkan deskripsi dari perintah yang dibuat
+
+    d. Untuk menampilkan data di terminal
+
+42. Method line() digunakan untuk...
+
+    a. Menempatkan perintah logic pada command artisan yang baru
+
+    b. Untuk menampilkan informasi jika terjadi kesalahan
+
+    c. Digunakan untuk menampilkan deskripsi dari perintah yang dibuat
+
+    **d. Untuk menampilkan data di terminal**
+
+43. Penulisan kode program untuk menampilkan pertanyaan di terminal...
+
+    **a. $name = $this->ask("What is your name");**
+
+    b. $name = $this->secret("What is your name");
+
+    c. $name = $this->line("What is your name");
+
+    d. $name = $this->now("What is your name");
+
+44. Penulisan kode program untuk tidak menampilkan inputan password di terminal...
+
+    **a. $password = $this->secret("Input your password!");**
+
+    b. $password = $this->ask("Input your password!");
+
+    c. $password = $this->line("Input your password!");
+
+    d. $password = $this->now("Input your password!");
+## Implementasi Artisan Console
+
+45. Perintah untuk membuat command baru dengan nama command Createuser...
+
+    a. php artisan make:model Createuser
+
+    b. php artisan command Createuser
+
+    c. php artisan new command Createuser
+
+    **d. php artisan make:command Createuser**
+
+46. Pada laravel, perintah Php artisan migrate digunakan untuk...
+
+    **a. Melakukan migrasi database**
+
+    b. Membuat tabel baru
+
+    c. Membuat model baru
+
+    d. Membuat migration baru
+
+47. Hash berguna untuk...
+    
+    **a. Untuk Enkripsi**
+
+    b. Untuk menentukan inputan menjadi numerik
+
+    c. Untuk membuat tabel baru
+
+    d. Untuk membuat model baru
+
+48. Method confirm() digunakan untuk...
+
+    a. Menempatkan perintah logic pada command artisan yang baru
+
+    b. Untuk menampilkan informasi jika terjadi kesalahan
+
+    c. Digunakan untuk menampilkan deskripsi dari perintah yang dibuat
+
+    **d. Ditunjukan untuk konfirmasi**
+
+49. Signature digunakan untuk...
+
+    a. Menempatkan perintah logic pada command artisan yang baru
+
+    b. Untuk menampilkan informasi jika terjadi kesalahan
+
+    c. Digunakan untuk menampilkan deskripsi dari perintah yang dibuat
+
+    **d. Digunakan untuk menentukan inputan perintah Anda di terminal**
+
+# Event
+## Membuat Event dan Listener
+
+50. Perintah untuk membuat class event dan listener...
+
+    **a. php artisan event:generate**
+
+    b. php artisan event generate
+
+    c. php artisan make:generate
+
+    d. php event generate
+
+51. Dimana letak folder event yang telah digenerate...
+
+    **a. App\Events**
+
+    b. App\Commands\Events
+
+    c. Events
+
+    d. App\Http\Events
+
+ 1.  Dimana letak folder listener yang telah digenerate...
+
+    **a. App\Listeners**
+
+    b. App\Commands\Listeners
+
+    c. Listeners
+
+    d. App\Http\Listeners
+
+52. Perintah untuk membuat event tanpa membuat listener...
+
+    **a. php artisan make:event nama_event**
+
+    b. php artisan event nama_event
+
+    c. php artisan new event nama_event
+
+    d. Git artisan make:event nama_event
+
+53. Perintah untuk membuat listener tanpa membuat event...
+
+    **a. php artisan make:listener nama_listener**
+
+    b. php artisan listener nama_listener
+
+    c. php artisan new listener nama_listener
+
+    d. Git artisan make:listener nama_listener
+
+## Implementasi Event dan Listener
+
+55. Penulisan yang benar untuk import facade storage...
+
+    a. Use Illuminate\Support\Storage;
+    
+    b. Use Illuminate\Facades\Storage;
+    
+    c. Use Storage:
+    
+    **d. Use Illuminate\Support\Facades\Storage;**
+
+56. Method now() digunakan untuk...
+
+    a. Menampilkan waktu
+
+    b. Menampilkan tanggal
+
+    **c. Menampilkan tanggal dan waktu**
+
+    d. Semua salah
+
+57. Penulisan kode untuk event user logged in...
+
+    **a. event(new UserLogged($request, 'Login'));**
+
+    b. eventin(new UserLogged($request, 'Login'));
+
+    c. listener(new UserLogged($request, 'Login'));
+    
+    d. component(new UserLogged($request, 'Login'));
+
+58. Penulisan kode untuk event user log out...
+
+    **a. event(new UserLogged($request, 'Logout'));**
+
+    b. eventin(new UserLogged($request, 'Logout'));
+
+    c. listener(new UserLogged($request, 'Logout'));
+    
+    d. component(new UserLogged($request, 'Logout'));
+
+59. Penulisan yang benar untuk import UserLogged...
+
+    **a. Use App\Events\UserLogged;**
+    
+    b. Use App\UserLogged;
+    
+    c. Use App\UserLogged\Events;
+    
+    d. Use Events\UserLogged;
+# Notification
+
+## Membuat Fitur Notifikasi Email
+
+60. Perintah untuk membuat class notifikasi...
+
+    **a. php artisan make:notification nama_notifikasi**
+
+    b. php artisan notification nama_notifikasi**
+
+    c. php artisan new notification nama_notifikasi**
+
+    d. php make:notification nama_notifikasi**
+
+61. Trait dari notifiable...
+
+    a. Use Notifications\Notifiable;
+
+    **b. Use Illuminate\Notifications\Notifiable;**
+
+    c. Use Notifiable;
+
+    d. Illuminate\Notifications\Notifiable;
+
+62. Di bawah ini yang bukan delivery channel dari laravel notification...
+
+    a. Mail
+
+    b. Slack
+
+    **c. Nginx**
+    
+    d. Nexmo
+
+63. Trait yang memungkinkan untuk menggunakan method notify...
+
+    a. Notif
+
+    b. Notification
+
+    c. Verify
+
+    **d. Notifiable**
+
+64. Apa fungsi Model Di Laravel...
+
+    a. Model adalah bagian yang mengatur tampilan ke pengguna, Tampilan view berupa halaman web
+
+    **b. Model adalah bagian yang berkomunikasi dengan database. Biasanya model berisi fungsi-fungsi yang membantu dalam pengelolaan  basis data, seperti memasukan data ke basis data, pembaruan data, dan lain-lain**
+
+    c. Model adalah yang menjembatani antara model dan view
+
+    d. Model berguna untuk menampilkan tampilan
+## Implementasi Notifikasi dengan Channel Telegram
+
+65. Perintah untuk install package dari channels telegram...
+
+    **a. Composer require laravel-notification-channels/telegram**
+
+    b.
+
+    c.
+
+    d.
+
+66. Perintah untuk membuat class notifikasi TelegramNotif...
+
+    a.
+
+    **b. php artisan make:notification TelegramNotif**
+
+    c.
+
+    d.
+
+67. Di file mana kita menempatkan Telegram_Bot_Token...
+
+    a. app.php
+
+    b. logging.php
+
+    c. services.php
+
+    **d. .env**
+
+68. Element button() dapat digunakan untuk...
+
+    a.
+
+    b.
+
+    c.
+    
+    **d. Membuat tombol untuk mengakses ke situs yang ditentukan**
+
+69. Isi dari method via jika menggunakan Channel Telegram...
+
+```
+    a.
+
+    b.
+
+    c.
+
+    **d. return [TelegramChannel::class];**
+
+```
+
+# Queue
+## Memahami Proses Queue
+## Implementasi Laravel Queue
+
+# Task Schedule
+## Membuat Schedule dengan Closure
