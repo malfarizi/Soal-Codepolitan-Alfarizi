@@ -951,11 +951,11 @@
 
     **a. Digunakan untuk melakukan backup database**
 
-    b.
+    b. Digunakan untuk mendapatkan nilai dari attribute
 
-    c.
+    c. Digunakan untuk menyisipkan satu atau lebih ke elemen terakhir ke database
 
-    d.
+    d. Digunakan untuk menghapus elemen yang dipilih dari array dan menggantinya dengan elemen baru untuk ditambahkan ke dalam database
 
 92. Apa singkatan dari Crontab?
 
