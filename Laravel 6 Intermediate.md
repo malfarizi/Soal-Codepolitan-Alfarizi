@@ -211,9 +211,25 @@
 
     d. Virtualisasi software
 
-21. Yang dimaksud dengan Vagrant up...
+21. Perintah suspend pada vagrant...
 
-22. Yang dimaksud dengan Vagrant Provision...
+    **a. Digunakan untuk suspend atau sleep box**
+
+    b. Digunakan untuk menjalankan box
+
+    c. Digunakan untuk mematikan box
+
+    d. Digunakan untuk menghapus box
+
+22. Pada Vagrant, Provisioning adalah...
+
+    **a. Adalah menginstall/mengkonfigurasi sistem yang terdapat di dalam sebuah box**
+
+    b. Adalah menghapus sistem yang terdapat di dalam sebuah box
+
+    c. Adalah mengubah konfigurasi sistem yang terdapat di dalam sebuah box
+
+    d. Semua salah
     
 ## Install Laravel Homstead macOS
 
@@ -258,9 +274,25 @@
 
     d. Internet Provider
 
-27
+27. Jika Port Http 8000 akan diforward ke...
 
-28
+    a. 8080
+
+    **b. 80**
+
+    c. 22
+
+    d. 08
+
+28. Jika Port SSH 2222 akan diforward ke...
+
+    **a. 22**
+
+    b. 80
+
+    c. 222
+
+    d. 2222
 
 # Konsep Dasar Service Container
 ## Konsep Dasar Service Container
@@ -504,7 +536,7 @@
 
     d. App\Http\Events
 
- 1.  Dimana letak folder listener yang telah digenerate...
+52. Dimana letak folder listener yang telah digenerate...
 
     **a. App\Listeners**
 
@@ -514,7 +546,7 @@
 
     d. App\Http\Listeners
 
-52. Perintah untuk membuat event tanpa membuat listener...
+53. Perintah untuk membuat event tanpa membuat listener...
 
     **a. php artisan make:event nama_event**
 
@@ -524,7 +556,7 @@
 
     d. Git artisan make:event nama_event
 
-53. Perintah untuk membuat listener tanpa membuat event...
+54. Perintah untuk membuat listener tanpa membuat event...
 
     **a. php artisan make:listener nama_listener**
 
@@ -644,21 +676,21 @@
 
     **a. Composer require laravel-notification-channels/telegram**
 
-    b.
+    b. Composer require notification-channels/telegram
 
-    c.
+    c. Composer install laravel-notification-channels/telegram
 
-    d.
+    d. php artisan laravel-notification-channels/telegram
 
 66. Perintah untuk membuat class notifikasi TelegramNotif...
 
-    a.
+    a. Composer require notification TelegramNotif
 
     **b. php artisan make:notification TelegramNotif**
 
-    c.
+    c. php artisan notification TelegramNotif
 
-    d.
+    d. php artisan queue:notification TelegramNotif
 
 67. Di file mana kita menempatkan Telegram_Bot_Token...
 
@@ -672,22 +704,22 @@
 
 68. Element button() dapat digunakan untuk...
 
-    a.
+    a. Membuat tombol untuk generate class nitification baru
 
-    b.
+    b. Membuat tombol untuk mengirim email
 
-    c.
+    c. Membuat tombol untuk kembali ke halaman awal
     
     **d. Membuat tombol untuk mengakses ke situs yang ditentukan**
 
 69. Isi dari method via jika menggunakan Channel Telegram...
 
 ```
-    a.
+    a. return [Mail::class];
 
-    b.
+    b. return [Telegram::class];
 
-    c.
+    c. return [ChannelTelegram::class];
 
     **d. return [TelegramChannel::class];**
 
@@ -695,7 +727,402 @@
 
 # Queue
 ## Memahami Proses Queue
+
+70. Queue artinya...
+
+    a. Mengirim
+
+    b. Menunggu
+
+    **c. Antrian**
+
+    d. Membuat
+
+71. Perintah untuk membuat migrasi tabel untuk queue jobs...
+
+    a. php artisan queue
+
+    **b. php artisan queue:table**
+
+    c. php artisan migrate queue
+
+    d. php artisan queue table
+
+72. Perintah untuk membuat mail class...
+
+    a. git clone make:mail namaClassMail
+
+    b. Composer require make:mail namaClassMail
+
+    c. php artisan class:mail namaClassMail
+
+    **d. php artisan make:mail namaClassMail**
+
+73. Di bawah ini penulisan import SendMaialble yang benar...
+
+```
+   ** a. Use App\Mail\SendMailable;**
+
+    b. Use App\Facades\Mail\SendMailable;
+
+    c. Use App\Model\Mail\SendMailable;
+
+    d. Use Mail\SendMailable;
+```
+
+74. Fungsi Echo()...
+
+    a. Untuk mengirimkan data ke database
+
+    **b. Untuk menampilkan teks ke layar**
+
+    c. Untuk menghapus data
+
+    d. Untuk mendapatkan data yang dipanggil
 ## Implementasi Laravel Queue
 
+75. Dispatch digunakan untuk...
+    
+    **a. Digunakan untuk menjalankan queue job**
+
+    b. Digunakan untuk mendapatkan data queue job
+
+    c. DIgunakan untuk menghapus queue job
+
+    d. Semua salah
+
+76. Perintah untuk membuat class job... 
+
+    a. php artisan job
+
+    b. php artisan job:make
+
+    c. php artisan job:job
+
+    **d. php artisan make:job**
+
+77. Bagaimana cara untuk mengaktifkan proses queue melalui terminal...
+
+    a. composer require queue:work
+
+    b. php artisan work
+
+    c. php artisan job:work
+
+    **d. php artisan queue:work**
+
+78. Singkatan dari VPS...
+
+    **a. Virtual Private Server**
+    
+    b. Virtual Portable Server
+    
+    c. Virtual Process Server
+    
+    d. Virtual Port Server
+
+79. Apa yang dimaksud dengan SSH...
+
+    **a.  Adalah sebagai media transfer data aman yang bisa digunakan secara remote atau dari jarak jauh**
+    
+    b.  Adalah sebagai media transfer data aman yang bisa digunakan secara jarak dekat
+    
+    c.  Tools yang digunakan untuk download file melalui SSH
+     
+    d. Adalah aplikasi open source yang berupa framework dengan model MVC (Model, View, Controller) untuk membangun website dinamis dengan menggunakan PHP
 # Task Schedule
 ## Membuat Schedule dengan Closure
+
+80. Cron Job adalah...
+
+    **a. Merupakan penjadwalan pekerjaan berbasis waktu pada suatu sistem**
+
+    b. Merupakan media transfer data aman yang bisa digunakan secara jarak dekat
+
+    c. Meripakan media transfer data aman yang bisa digunakan secara remote atau dari jarak jauh
+
+    d. A dan C benar
+
+81. Perintah untuk memulai proses penjadwalan...
+
+    a. php artisan schedule
+
+    b. php artisan run schedule
+
+    c. php artisan run
+
+    **d. php artisan schedule:run**
+
+82. Bagaimana cara untuk generate 10 data user secara acak...
+
+    **a. factory(App\User::class, 10)->create();**
+
+    b. (App\User::class, 10)->create();
+
+    c. make(App\User::class, 10)->create();
+
+    d. post(App\User::class, 10)->create();
+
+83. Yang dimaksud dengan Closure adalah...
+
+    a. Adalah sebuah fungsi yang tidak memiliki statement
+
+    b. Adalah sebuah fungsi yang memiliki statement
+
+    c. Adalah sebuah fungsi yang memiliki nama alias anonymous
+    
+    **d. Adalah sebuah fungsi yang tidak memiliki nama alias anonymous**
+
+84. Dibawah ini cara penulisan eloquent yang benar untuk mendapatkan seluruh data Users...
+
+    **a. $users = User::all();**
+
+    b. $users = User::get();
+    
+    c. $users = User->all();
+    
+    d. $users = User();
+
+## Menjalankan Queue Job dengan Scheduler
+
+85. Method sleep() digunakan untuk...
+
+    **a. Menunda eksekusi skrip selama beberapa detik tertentu**
+
+    b. Menunda eksekusi skrip selama satu jam
+
+    c. Menunda eksekusi skrip selama satu hari
+
+    d. Menunda eksekusi skrip selama beberapa jam
+
+86. Menggunakan method apa jika kita ingin mengirimkan mail setiap hari sekali...
+
+    a. everyday();
+ 
+    b.  everyminutes();
+
+    c.  rarely();
+
+    **d. Daily();**
+
+87. Dibawah ini task yang dapat dilakukan dengan penjadwalan...
+
+    a. Mengirimkan daily/weekly email
+
+    b. Melakukan backup secara berkala 
+
+    c. Melakukan query penghapusan database secara teratur
+
+    **d. Semua benar**
+
+88. Menggunakan method apa jika ingin mengirimkan email setiap 30 menit...
+    
+    **a. everyThirtyMinutes();**
+
+    B. everyminutes();
+
+    c. rarely();
+
+    d. Daily();
+
+89. Perintah untuk menjalankan scheduler secara lokal...
+
+    a. php artisan schedule work
+
+    **b. php artisan schedule:work**
+
+    c. php artisan schedule:worknow
+
+    d. php artisan work
+
+## Menjalankan Shell Exec dengan Scheduler 
+
+90. Exec() digunakan untuk...
+
+    **a. Untuk mengeksekusi perintah**
+
+    b. Untuk mengeksekusi migrasi
+
+    c. Untuk menjalakan server
+
+    d. Untuk menjalankan web server
+
+91. Digunakan untuk apa perintah Mysqldump...
+
+    **a. Digunakan untuk melakukan backup database**
+
+    b.
+
+    c.
+
+    d.
+
+92. Apa singkatan dari Crontab?
+
+    **a. Cron Table**
+
+    b. Cron Castle
+
+    c. Cron Tabviewer
+
+    d. Cron Tablet
+
+93. Perintah untuk membuat atau mengubah crontab...
+
+    a. Crontab -update
+
+    b Crontab -new
+
+    c. Crontab
+
+    **d. Crontab -e**
+
+# Broadcasting
+
+## Mengenal Websocket di Laravel
+
+94. Mengaktifkan Broadcast ServiceProvider...
+    
+    a. App\Config\Providers\BroadcastServiceProvider::class
+
+    b. App\Http\Providers\BroadcastServiceProvider::class
+
+    c. App\Providers\BroadcastServiceProvider
+
+    **d. App\Providers\BroadcastServiceProvider::class**
+
+95. Manfaat menggunakan WebSocket...
+
+    **a. Data yang diterima akan bersifat realtime**
+
+    b. Data yang diterima tidak bersifat realtime
+
+    c. Data yang diterima akan bersifat offline
+
+    d. Semua salah
+
+96. Kapan harus menggunakan websocket?
+
+    a. Ketika terjadi interaksi data antar pengguna, dan bersifat offline
+
+    b. Ketika tidak terjadi interaksi data antar pengguna, dan bersifat realtime
+
+    **c. Ketika terjadi interaksi data antar pengguna, dan bersifat realtime**
+
+    d. Ketika terjadi interaksi data antar pengguna, dan tidak bersifat realtime
+
+97. Bagaimana cara kita menampilkan semua route yang terdaftar di aplikasi...
+
+    a. php route:list
+
+    b. php artisan route:listroutes
+
+    c. php artisan route:show
+
+    **d. php artisan route:list**
+
+98. Dibawah ini yang bukan Default Broadcaster...
+
+    a. Redis
+
+    b. Pusher
+
+    c. Log
+
+    **d. nginx**
+
+## Membuat Broadcaster Channel di Pusher
+
+99. Perintah untuk install Pusher...
+
+    a. php require pusher/pusher-php-server
+
+    b. Composer insrall pusher/pusher-php-server
+
+    c. Composer download pusher/pusher-php-server
+
+    **d. Composer require pusher/pusher-php-server**
+
+100. Aplikasi yang harus menggunakan websocket...
+
+    a. Aplikasi dengan banyak pengguna atau Multi-User Apps
+
+    b. Aplikasi langsung atau Realtime Apps
+
+    c. Aplikasi dimana data live sangat dibutuhkan, seperti pasar saham, atau kurs
+
+    **d. Semua benar**
+
+101. Pusher merupakan penyedia layanan...
+
+    a. DBMS
+
+    b. Web Server
+
+    **c. Websocket**
+
+    d. Cloud Computing
+## Mendapatkan Data Realtime dengan Laravel Echo
+
+102. Laravel Echo adalah...
+
+    a. Adalah method yang digunakan untuk memberikan nilai pada attribute
+
+    b. Digunakan untuk menghapus elemen yang dipilih dari array dan menggantinya dengan elemen baru
+
+    c. Merupakan library icon
+
+    **d. Merupakan package javascript dari Laravel**
+
+103. NPM adalah...
+    
+    **a. Node Package Manager**
+
+    b. New Package Manager
+
+    c. Now Package Manager
+
+    d. Network Package Manager
+
+104. Apa itu Laravel Mix...
+    
+    a. Laravel Mix adalah librari yang digunakan untuk menampilkan icon
+
+    b. Laravel Mix adalah sebuah package untuk menjalankan npm
+
+    **c. Laravel Mix adalah package frontend yang disiapkan untuk manajemen asset di laravel**
+
+    d. Laravel Mix adalah package backend yang disiapkan untuk manajemen asset di laravel
+
+## Implementasi Update UI Secara Real Time
+
+
+105. Apa fungsi pluck di return Task::latest()->pluck('body');...
+    
+    **a. Untuk mendapatkan field body dari tabel task**
+
+    b. Untuk mendapatkan seluruh field di tabel task
+
+    c. Untuk mendapatkan seluruh field di tabel task kecuali body
+
+    d. B dan C benar
+
+106. Tag html ```<li>``` berguna untuk...
+
+    a. Untuk membuat kolom baru
+    
+    b. Untuk membuat header dari tabel
+    
+    c. Untuk membuat ordered list
+    
+    **d. Untuk membuat list item**
+
+107. Axios digunakan untuk...
+
+    a. Untuk mengeksekusi perintah
+
+    **b. Untuk melakukan get, post, maupun put data pada aplikasi**
+
+    c. Sebagai client database
+
+    d. Sebagai cloud server
