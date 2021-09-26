@@ -4,12 +4,11 @@
 
     **a. adalah elemen yang berfungsi untuk menampilkan output berupa text**
 
-    b. Komponen untuk menampilkan gambar
+    b. Komponen untuk memberikan informasi kepada pengguna untuk melakukan suatu perintah
 
     c. Adalah sekelompok tampilan yang menyejajarkan semua anak dalam satu arah, secara vertikal atau horizontal
 
     d. komponen untuk menampilkan informasi dalam bentuk grid
-
 
 2. Agar tulisan menjadi tebal...
 
@@ -50,7 +49,6 @@
     c. Merupakan suatu tampilan yang hanya dapat mengatur gambar
  
     d. Semua salah
-
 ## Pembuatan MainActivity
 
 6. Di activity_main.xml akan berisikan...
@@ -102,7 +100,6 @@
     c. android:background="@android:color/transparan
 
     **d. android:background="@android:color/transparent"**
-
 ## Pembuatan Home Fragment
 
 11. Fragment adalah...
@@ -258,7 +255,6 @@
     c. ButtonView
 
     d. ImageView
-
 ## Tambah Fake Data untuk List Task
 
 26. Gson digunakan untuk...
@@ -320,7 +316,6 @@
     c. android:layout="8dp"
     
     **d. android:layout_margin="8dp"**
-
 ## Pembuatan Task Complete Fragment
 32. Atribut gravity...
 
@@ -416,8 +411,421 @@
 
 ## Penambahan Tanggal menggunakan Dialog Picker
 
+41. Datepicker digunakan untuk...
+
+    **a. Membantu memasukkan tanggal dengan memilih dari kalender tanpa memasukkan secara manual di kolom inputan**
+
+    b. Membantu memasukkan gambar dengan memilih dari galeri tanpa memasukkan secara manual di kolom inputan
+
+    c. Membantu memasukkan alamat dengan memilih dari peta tanpa memasukkan secara manual di kolom inputan
+
+    d. Membantu memasukkan email tanpa memasukkan secara manual di kolom inputan
+
+42. OnDateSetListener...
+
+    a. Listener yang digunakan untuk menunjukkan bahwa pengguna telah selesai memilih gambar
+
+    **b. Listener yang digunakan untuk menunjukkan bahwa pengguna telah selesai memilih tanggal**
+
+    c. Listener yang digunakan untuk menunjukkan bahwa pengguna telah selesai memasukan inputan
+
+    d. Semua salah
+
+43. Tipe data Integer biasanya digunakan untuk...
+
+    **a. Dipakai untuk merujuk untuk tipe data bilangan bulat**
+
+    b. Dipakai untuk merujuk untuk tipe data yang berisi text
+
+    c. Dipakai untuk merujuk untuk tipe data yang berisi karakter
+
+    d. Dipakai untuk merujuk untuk tipe data yang berisi bilangan pecahan
+
+44. Apa yang dimaksud dengan static class pada Java...
+
+    **a. Static class tidak dapat dibuat instance-nya ataupun diturunkan pada class lain, dan semua anggota class tersebut adalah bersifat static**
+
+    b. Static class dapat dibuat instance-nya ataupun diturunkan pada class lain, dan semua anggota class tersebut adalah bersifat static
+
+    c. Static class tidak dapat dibuat instance-nya ataupun diturunkan pada class lain, dan semua anggota class tersebut adalah bersifat abstract
+
+    d. Semua salah
+
+45. Di bawah ini merupakan kelebihan menggunakan static class...
+
+    **a. Kompilator dapat memeriksa guna memastikan bahwa tidak ada anggota instance yang ditambahkan secara tidak sengaja pada class tersebut**
+
+    b. Kompilator tidak perlu memeriksa guna memastikan bahwa tidak ada anggota instance yang ditambahkan secara tidak sengaja pada class tersebut
+
+    c. Kompilator dapat memeriksa guna memastikan bahwa tidak ada anggota instance yang ditambahkan secara sengaja pada class tersebut
+
+    d. Dapat kompilasi class sendiri
+
 ## Penambahan Add Sub Task Adapter
 
+46. Penulisan untuk import class Viewgroup...
+
+    **a. import android.view.ViewGroup**
+
+    b. install android.view.ViewGroup
+
+    c. get android.view.ViewGroup
+    
+    d. android.view.ViewGroup import
+
+47. Bertugas untuk apakah ViewGroup...
+
+    a.  Bertugas sebagai menampilkan gambar
+    
+    **b. Bertugas sebagai wadah bagi View – View dan ViewGroup lainnya**
+
+    c. Untuk membuat tombol
+
+    d. Sebagai wadah untuk menampilkan gambar sesuai grid
+
+48. Bagaimana untuk memberikan efek coretan pada tulisan...
+
+    **a. STRIKE_THRU_TEXT_FLAG**
+
+    b. STRIKE
+
+    c. STRIKE_TEXT_FLAG
+
+    d. THRU_TEXT_FLAG_STRIKE
 # Pembuatan Fitur pada Aplikasi
 
 ## Pembuatan Tabel Database
+
+49. Database adalah...
+
+    **a. Adalah pengorganisasian dari kumpulan data, umumnya di simpan dan di akses secara elektronik melalui sistem komputer**
+
+    b. Adalah tools sebagai client web
+
+    c. Adalah suatu sistem atau software yang dirancang khusus untuk mengelola suatu server
+
+    d. Adalah protokol transfer yang digunakan untuk mengontrol dan memodifikasi server dari jarak jauh
+
+50. Tabel pada database...
+
+    a. Adalah suatu sistem atau software yang dirancang khusus untuk mengelola suatu server
+
+    b. Adalah pengorganisasian dari kumpulan data, umumnya di simpan dan di akses secara elektronik melalui sistem komputer
+
+    **c. Merupakan kumpulan data yang diorganisasikan ke dalam baris (record) dan kolom (field)**
+
+    d. Kumpulan data metah yang akan diinputkan oleh pengguna
+
+51. Companion Object...
+
+    a. Membuat fungso yang bisa dipanggil dengan parameter classnya
+
+    b. Membuat fungsi yang bisa dipanggil dengan class
+
+    c. Membuat fungsi yang bisa dipanggil dengan classnya tidak secara langsung
+
+    **d. Membuat fungsi yang bisa dipanggil dengan classnya langsung**
+
+52. Perintah untuk membuat tabel...
+
+    **a. Create Table**
+
+    b. Make table
+
+    c. Update table
+
+    d. Table Create
+
+53. Kegunaan dari Primary Key...
+
+    **a. Suatu nilai dalam basis data yang digunakan untuk mengidentifikasi suatu baris dalam tabel**
+
+    b. Adalah satu set atribut atau set atribut sebagai key penghubung kedua tabel dan melengkapi satu relationship (hubungan) terhadap primary key yang menunjukan keinduknya
+
+    c. Adalah suatu atribut atau satu set minimal atribut yang hanya mengidentifikasikan secara unik untuk suatu kejadian spesifik dari entitas
+
+    d. adalah kunci yang terdiri dari 2 atau lebih atribut yang secara unik mengidentifikasi suatu kejadian entitas
+
+54. Sifat dari Primary Key...
+
+    **a. Unik**
+    
+    b. Nullable
+
+    c. Abstract
+
+    d. Boolean
+
+## Pembuatan DbTaskHelper dan DbSubTaskHelper
+
+55. Berikut yang bukan Database...
+    
+    a. SQlite
+
+    b. MariaDB
+
+    c. MySQL
+
+    **d. CodeIgniter**
+
+56. Query untuk mendapatkan seluruh data pada tabel...
+
+    **a. SELECT * FROM**
+
+    b. SELECT FROM *
+
+    c. SELECT ALL
+
+    d. GET ALL
+
+57. Fungsi Where digunakan untuk...
+    
+    **a. Untuk pencarian data yang sesuai atau mirip apa yang dicari**
+
+    b. Untuk menampilkan data terbaru
+
+    c. Untuk mencari data yang tidak sesuai dengan yang dicari
+
+    d. Untuk mencari data yang baru dimasukan
+
+58. Di bawah ini yang bukan tipe data...
+
+    a. Float
+
+    b. String
+
+    c. Int
+
+    **d. Html**
+
+59. Method untuk menghapus data...
+
+    a. Bin
+
+    b. Trash
+
+    c. Dump
+
+    **d. Delete**
+
+## Memasukan data ke database
+
+60. .show() digunakan untuk...
+
+    **a. Untuk menampilkan informasi ke layar**
+
+    b. Untuk menghapus data
+
+    c. Untuk mengirimkan data ke database
+
+    d. Untuk mengubah data
+
+61. Yang bukan perulangan...
+
+    **a. Nginx**
+    
+    b. For
+    
+    c. While
+    
+    d. Do while
+
+62. Untuk memberikan title pada AlertDialog...
+
+    a. .Title()
+
+    **b. .setTitle()**
+
+    c. .Judul()
+
+    d. .setDesc()
+
+## Menampilkan data di Home Fragment
+
+63. Mutable list...
+    
+    **a. Bisa melakukan perubahan pada list**
+
+    b. Memungkinkan untuk menyimpan data maupun referensi objek dalam jumlah banyak dan terindeks
+
+    c. adalah sebuah pengklasifikasian data berdasarkan jenis data
+
+    d. Read only list, jadi tidak bisa melakukan sesuatu yang akan mengubah list
+
+64. Immutable list...
+
+    a. Bisa melakukan perubahan pada list
+    
+    b. Memungkinkan untuk menyimpan data maupun referensi objek dalam jumlah banyak dan terindeks
+
+    c. adalah sebuah pengklasifikasian data berdasarkan jenis data
+    
+    **d. Read only list, jadi tidak bisa melakukan sesuatu yang akan mengubah list**
+
+65. Untuk menghapus elemen dari list...
+
+    a. Bin()
+
+    b. Delete()
+
+    c. Trash()
+
+    **d. Clear()**
+
+66. Di bawah ini merupakan perulangan...
+
+    a. Nginx
+    
+    **b. For**
+    
+    c. Html
+    
+    d. Composer
+
+67. onStart()...
+    
+    a. Adalah saat activity di buat
+    
+    b. Adalah saat activity di stop
+    
+    c. Adalah saat activity di hapus
+    
+    **d. Adalah saat Activity dimulai**
+
+68. onResume() 
+    
+    a. dalah saat activity di hapus
+    
+    b. Adalah saat activity di stop
+    
+    **c. Adalah saat Activity dibuka kembali**
+    
+    d. Adalah saat Activity dimulai
+
+## Mengirimkan data ke New Task Activity
+
+69. Activity bersifat...
+
+    **a. Tidak hidup abadi selamanya, dia bisa diciptakan dan dihancurkan**
+
+    b. Hidup abadi selamanya, dia bisa diciptakan dan dihancurkan
+
+    c. Tidak hidup abadi selamanya, dia tidak bisa dihancurkan
+
+    d. Hidup abadi selamanya, dia tidak bisa dihancurkan
+
+70. Hak akses private...
+
+    **a. Adalah hak akses yang melarang method/property yang menggunakannya di larang diakses dari luar class**
+
+    b.  Digunakan dalam java yang memungkinkan setiap variabel dan method yang di deklarasikan dalam class
+
+    c. Yang deklarasikan untuk memproteksi suatu class agar setiap variabel dan method yang dideklarasikan tidak dapat di akses oleh non subclass di dalam package yang sama
+
+    d. A dan C benar
+
+71. OnClick()...
+
+    **a. Metode ini dipanggil bila pengguna menyentuh item (saat dalam mode sentuh)**
+
+    b. Metode ini dipanggil bila pengguna menuliskan inputan
+
+    c. Metode ini dipanggil bila pengguna ingin menyimpan data
+
+    d. Semua salah
+
+72. Compile adalah...
+
+    **a. Adalah proses pengubahan kode program (Source code) menjadi kode objek atau sebuah file**
+
+    b. Adalah proses membuat kode program
+
+    c. Adalah prose rendering untuk menampilkan gambar
+
+    d. Adalah prose rendering untuk menyimpan video
+
+## Update, Delete data Task dan Sub Task
+
+73. Kegunaan dari AlertDialog...
+
+    **a. Komponen untuk memberikan informasi kepada pengguna untuk melakukan suatu perintah**
+
+    b. Metode ini dipanggil bila pengguna menyentuh item (saat dalam mode sentuh)
+
+    c. Metode ini dipanggil bila pengguna ingin menyimpan data
+
+    d. Semua salah
+
+74. Pada bagian apakah pada dialog untuk memberikan pesan...
+
+    a. Tombol negatif
+
+    b. Tombol positif
+
+    c. Judul
+
+    **d. Pesan**
+
+75. Pada bagian apakah pada dialog untuk pilihan positif...
+
+    a. Tombol negatif
+
+    **b. Tombol positif**
+
+    c. Tombol benar
+
+    d. Tombol salah
+
+## Complete Data
+
+76. View Holder adalah...
+
+    **a. Berisi tampilan informasi untuk menampilkan satu item dari layout item**
+
+    b. Adalah sebuah parent layout yang memiliki parent layout lagi di dalamnya
+
+    c. Komponen untuk memberikan informasi kepada pengguna untuk melakukan suatu perintah
+
+    d. Adalah sekelompok tampilan yang menyejajarkan semua anak dalam satu arah, secara vertikal atau horizontal
+
+77. Inner class adalah...
+
+    a. class yang didefinisikan di dalam class lain
+
+    **b. Suatu class yang berada di dalam class lainnya**
+
+    c. class yang bersifat private
+
+    d. semua salah
+
+78. Nested class...
+
+    a. adalah kondisi di mana sebuah parent layout yang memiliki parent layout lagi di dalamnya
+
+    b. Suatu class yang berada di dalam class lainnya
+
+    **c. class yang didefinisikan di dalam class lain**
+
+    d. Semua salah
+
+## Update data Sub Task di New Task Activity
+
+79. Untuk menghapus seluruh elemen pada array...
+
+    a. updateAll()
+
+    b. create()
+
+    c. createnew()
+
+    **d. removeAll()**
+
+80. Class yang tidak perlu untuk membuat objectnya...
+
+    a. Public classes
+
+    b. Object classes
+
+    c. Oriented classes
+
+    **d. Abstract classes**
