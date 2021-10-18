@@ -26,11 +26,11 @@
 
     a. Kotlin
 
-    b.
+    b. HTML
 
-    c.
+    c. CodeIgniter
 
-    d.
+    d. Yii
 
 ## SplashActivity
 
@@ -147,7 +147,7 @@
 
     c. Digunakan saat akan menggunakan salah satu elemen yang sudah diberikan @+id/ misalnya saat kita melakukan layouting menggunakan RelativeLayout
 
-    d. A dan B benar
+    d. Semua benar
 
 15. Menentukan warna background...
 
@@ -280,11 +280,11 @@
 
     **a. Berisi semua resource non-kode, seperti tata letak XML, string UI, dan gambar bitmap**
 
-    b.
+    b. Berisi file-file drawable
 
-    c.
+    c. Berisi icon yang akan digunakan
 
-    d.
+    d. Berisi file html
 
 ## UserFragment
 
@@ -403,7 +403,7 @@
 
     d. Android:layout=""
 
-40. Fungsi onClick()...
+39. Fungsi onClick()...
 
     **a. Memberikan aksi ketika tombol disentuh**
 
@@ -415,17 +415,7 @@
 
 ## ChangePasswordActivity
 
-41. Atribut Android:src digunakan untuk...
-
-    a.
-
-    b.
-
-    c.
-
-    d.
-
-42. Bagaimana untuk memberikan efek coretan pada tulisan...
+40.  Bagaimana untuk memberikan efek coretan pada tulisan...
 
     **a. STRIKE_THRU_TEXT_FLAG**
 
@@ -435,7 +425,7 @@
 
     d. THRU_TEXT_FLAG_STRIKE
 
-43. Jenis metode inputan untuk password...
+41.  Jenis metode inputan untuk password...
         
    **a. textPassword**
 
@@ -447,7 +437,7 @@
 
 ## ForgotPasswordActivity
 
-44. Dibawah ini merupakan kelebihan dari RecyclerView...
+42. Dibawah ini merupakan kelebihan dari RecyclerView...
 
     **a. Memudahkan untuk menampilkan kumpulan data dalam jumlah besar secara efisien**
 
@@ -457,7 +447,7 @@
 
     d. Semua salah
 
-45. Data Class pada kotlin...
+43. Data Class pada kotlin...
 
     **a. Merupakan class khusus yang digunakan untuk menampung data**
 
@@ -467,7 +457,7 @@
 
     d. Merupakan class khusus yang digunakan untuk menampung data gambar
 
-46. Tampilan beberapa item dalam bentuk list...
+44. Tampilan beberapa item dalam bentuk list...
 
     **a. ListView**
 
@@ -479,7 +469,7 @@
 
 ## ForgotPasswordActivity
 
-47. Agar background Appbar menjadi transparan...
+45. Agar background Appbar menjadi transparan...
 
     a. android:background="@android:color=transparent
 
@@ -489,7 +479,7 @@
 
     **d. android:background="@android:color/transparent"**
 
-48. Bertugas untuk apakah ViewGroup...
+46. Bertugas untuk apakah ViewGroup...
 
     a.  Bertugas sebagai menampilkan gambar
     
@@ -499,7 +489,7 @@
 
     d. Sebagai wadah untuk menampilkan gambar sesuai grid
 
-49. Penulisan untuk import class Viewgroup...
+47. Penulisan untuk import class Viewgroup...
 
     **a. import android.view.ViewGroup**
 
@@ -511,7 +501,7 @@
 
 ## Menghubungkan Seluruh Layout
 
-50. Folder Manifest berisi...
+48. Folder Manifest berisi...
 
     a. Berisi model
 
@@ -521,7 +511,7 @@
 
     d. Berisi tempat pendeklarasian tentang Aplikasi, seperti icon, judul aplikasi, gaya theme
 
-51. Elemen ```<application>```...
+49. Elemen ```<application>```...
 
     **a. Berisi tempat pendeklarasian tentang Aplikasi, seperti icon, judul aplikasi, gaya theme**
 
@@ -531,7 +521,7 @@
 
     d. Berisi activity-activity
 
-52. Elemen ```<activity>``` pada AndroidManifest.xml...
+50. Elemen ```<activity>``` pada AndroidManifest.xml...
 
     a. Berisi tempat pendeklarasian tentang Aplikasi, seperti icon, judul aplikasi, gaya theme
 
@@ -544,7 +534,7 @@
 
 ## Menyiapkan Fake Data - 1
 
-53. Singkatan dari JSON...
+51. Singkatan dari JSON...
 
     **a. JavaScript object notation**
 
@@ -554,7 +544,7 @@
 
     d. JavaScript notation object
 
-54. Gson digunakan untuk...
+52. Gson digunakan untuk...
 
     **a. library untuk melakukan serialisasi dan deserialisasi data JSON dengan mudah**
 
@@ -564,7 +554,7 @@
  
     d. B dan C benar
 
-55. Apa yang dimaksud dengan static class pada Java...
+53. Apa yang dimaksud dengan static class pada Java...
 
     **a. Static class tidak dapat dibuat instance-nya ataupun diturunkan pada class lain, dan semua anggota class tersebut adalah bersifat static**
 
@@ -576,7 +566,7 @@
 
 ## Menyiapkan Fake Data - 2
 
-56. Folder Java berisi...
+54. Folder Java berisi...
 
     **a. Berisi file kode sumber Java, termasuk kode pengujian JUnit**
 
@@ -586,7 +576,7 @@
 
     d.  Berisi resource untuk tampilan
 
-57. Nested class...
+55. Nested class...
 
     a. adalah kondisi di mana sebuah parent layout yang memiliki parent layout lagi di dalamnya
 
@@ -596,7 +586,7 @@
 
     d. Semua salah
 
-58. Mutable list...
+56. Mutable list...
     
     **a. Bisa melakukan perubahan pada list**
 
@@ -607,7 +597,7 @@
     d. Read only list, jadi tidak bisa melakukan sesuatu yang akan mengubah list
 ## Membuat Adapter Top Charts
 
-60. Yang dimaksud Viewholder...
+57. Yang dimaksud Viewholder...
 
     a. Adalah semacam tampilan tambahan yang akan muncul saat kita pertama kali membuat suatu aplikasi
 
@@ -617,7 +607,7 @@
 
     **d. Adalah wrapper di sekitar View yang berisi tata letak untuk setiap item dalam daftar**
 
-61. Inner class adalah...
+58. Inner class adalah...
 
     a. class yang didefinisikan di dalam class lain
 
@@ -627,7 +617,7 @@
 
     d. semua salah
 
-62. Apa yang dimaksud dengan inheritance...
+59. Apa yang dimaksud dengan inheritance...
 
     a. Adalah konsep pemrograman dimana sebuah class dapat 'tidak menurunkan' property dan method yang dimilikinya kepada class lain
 
@@ -638,7 +628,7 @@
     d. Semua salah
 ## Membuat Adapter My Tracks
 
-63. Apa yang dimaksud camelcase...
+60. Apa yang dimaksud camelcase...
 
     **a. Semua suku kata menyatu dan terdapat huruf kapital untuk memisahnya**
 
@@ -648,7 +638,7 @@
     
     d. Gaya penulisan ini sering digunakan untuk menuliskan nama sebuah konstanta
 
-63. Immutable list...
+61. Immutable list...
 
     a. Bisa melakukan perubahan pada list
     
@@ -658,7 +648,7 @@
     
     **d. Read only list, jadi tidak bisa melakukan sesuatu yang akan mengubah list**
 
-64. Apa fungsi dari startActivity()...
+62. Apa fungsi dari startActivity()...
 
     **a. Digunakan untuk memulai sebuah activity** 
 
@@ -670,7 +660,7 @@
 
 ## Membuat Adapter Songs Album
 
-65.  Yang dimaksud dengan OnCreate()...
+63.  Yang dimaksud dengan OnCreate()...
 
     a. Kondisi saat Activity dihancurkan pada memori
 
@@ -680,7 +670,7 @@
 
     **d. Kondisi awal saat Activity baru dibuat/diciptakan**
 
-66. Yang dimaksud dengan OnDestroy()...
+64. Yang dimaksud dengan OnDestroy()...
 
     **a. Kondisi saat Activity dihancurkan pada memori**
 
@@ -690,7 +680,7 @@
 
     d. Kondisi awal saat Activity baru dibuat/diciptakan
 
-67. Apa singkatan dari SDK...
+65. Apa singkatan dari SDK...
 
     a. Advance Software Development Kit
 
@@ -701,7 +691,7 @@
     d. Amplifier Software Development Kit
 ## Membuat Adapter Top Albums
 
-68. Variabel global...
+66. Variabel global...
 
     **a. Adalah variabel dengan cakupan global, yang berarti bahwa itu terlihat di seluruh program**
 
@@ -711,7 +701,7 @@
 
     d. Semua salah
 
-69. Apa singkatan dari AVD...
+67. Apa singkatan dari AVD...
 
     **a. Android Virtual Devices**
 
@@ -721,7 +711,7 @@
 
     d. Android Visual Devices
 
-70. Apa yang dimaksud dengan constructor...
+68. Apa yang dimaksud dengan constructor...
 
     a. Adalah variabel dengan cakupan global, yang berarti bahwa itu terlihat di seluruh program
 
@@ -732,7 +722,7 @@
     d. Merupakan proses enkapsulasi
 ## Menampilkan Data Top Charts
 
-71. Class yang tidak perlu untuk membuat objectnya...
+69. Class yang tidak perlu untuk membuat objectnya...
 
     a. Public classes
 
@@ -742,7 +732,7 @@
 
     **d. Abstract classes**
 
-72. Untuk menghapus seluruh elemen pada array...
+70. Untuk menghapus seluruh elemen pada array...
 
     a. updateAll()
 
@@ -752,7 +742,7 @@
 
     **d. removeAll()**
 
-74. Kegunaan dari AlertDialog...
+71. Kegunaan dari AlertDialog...
 
     **a. Komponen untuk memberikan informasi kepada pengguna untuk melakukan suatu perintah**
 
@@ -764,7 +754,7 @@
 
 ## Menampilkan Data My Tracks
 
-75. Atribut tidak terlihat pada layar, namun ada space pada layar...
+72. Atribut tidak terlihat pada layar, namun ada space pada layar...
 
     **a. View.INVISIBLE**
 
@@ -774,7 +764,7 @@
 
     d. View.COLORED
 
-76. Atribut tidak terlihat pada layar, tidak ada space pada layar...
+73. Atribut tidak terlihat pada layar, tidak ada space pada layar...
 
     a. View.INVISIBLE
 
@@ -784,7 +774,7 @@
 
     d. View.COLORED
 
-77. android:shape="rectangle" berguna untuk...
+74. android:shape="rectangle" berguna untuk...
 
     **a. Untuk membuat bentuk persegi panjang**
 
@@ -795,7 +785,7 @@
     d. Untuk membuat bentuk bulat
 ## Menampilkan Data Top Albums
 
-78. Yang dimaksud dengan layout...
+75. Yang dimaksud dengan layout...
 
     a. Merupakan suatu tampilan yang hanya dapat mengatur teks
 
@@ -805,7 +795,7 @@
  
     d. Semua salah
 
-79. Agar backgroud imagebutton menjadi transparan...
+76. Agar backgroud imagebutton menjadi transparan...
 
     a. android:cardbackground="@android:color/transparent
 
@@ -815,7 +805,7 @@
 
     **d. android:background="@android:color/transparent"**
 
-80. GridView adalah...
+77. GridView adalah...
 
     a. Komponen untuk menampilkan gambar
 
@@ -826,7 +816,7 @@
     d. Komponen untuk menampilkan informasi dalam bentuk linear
 ## Menampilkan Data Detail Album
 
-81. Gson digunakan untuk...
+78. Gson digunakan untuk...
 
     **a. library untuk melakukan serialisasi dan deserialisasi data JSON dengan mudah**
 
@@ -836,7 +826,7 @@
  
     d. B dan C benar
 
-82. Biasanya try catch digunakan untuk...
+79. Biasanya try catch digunakan untuk...
 
     **a. Digunakan untuk menangkap eksepsi atau kesalahan**
 
@@ -846,7 +836,7 @@
 
     d. Digunakan untuk memberikan warna
 
-83. Layout margin digunakan untuk...
+80. Layout margin digunakan untuk...
 
     **a. Atribut yang digunakan untuk mengatur jarak antar View**
 
@@ -855,3 +845,792 @@
     c. Melebarkan atau memperlapis sebuah konten View
     
     d. Semua salah
+
+## Menampilkan Data PlaySongActivity
+
+81. CardView digunakan untuk...
+
+    **a. Sebagai wrapper atau frame layout yang akan membungkus layout di dalamnya dengan desain menyerupai kartu**
+
+    b. Komponen untuk menampilkan gambar
+
+    c. Adalah sekelompok tampilan yang menyejajarkan semua anak dalam satu arah, secara vertikal atau horizontal
+
+    d. komponen untuk menampilkan informasi dalam bentuk grid
+
+82. Yang dimaksud intent adalah...
+
+    a.  Merupakan komponen yang berfungsi untuk menampilkan user interface dari aplikasi yang akan dibuat
+
+    **b. Adalah sebuah jembatan yang menghubungkan interaksi antar Activity di aplikasi Android**
+
+    c. Adalah sekelompok tampilan yang menyejajarkan semua anak dalam satu arah, secara vertikal atau horizontal
+
+    d. Semua salah
+
+83. Penulisan layout margin yang benar...
+
+    a. layout:layout_margin="8dp"
+
+    b. android:margin_layout="8dp"
+
+    c. android:layout="8dp"
+    
+    **d. android:layout_margin="8dp"**
+## Menyiapkan Koneksi ke Firebase
+
+84. Firebase adalah...
+
+    **a.  Firebase merupakan salah satu layanan dari Google yang memudahkan para app developer dalam mengembangkan aplikasi mereka. Firebase termasuk ke dalam kategori Baas (Backend as a Service)**
+
+    b. Adalah merupakan sebuah library framework CSS yang telah dibuat khusus uintuk mengembangkan front end sebuah website
+
+    c. Adalah suatu sistem atau software yang dirancang khusus untuk mengelola suatu server
+
+    d. Adalah protokol transfer yang digunakan untuk mengontrol dan memodifikasi server dari jarak jauh
+
+85. Kegunaan dari Firebase Authentication...
+
+    a. Adalah bagian yang mengatur tampilan ke pengguna
+
+    **b. Metode untuk membuat dan mengelola pengguna yang login menggunakan alamat email dan sand**
+
+    c. Adalah librari yang digunakan untuk menampilkan icon
+
+    d. Adalah protokol transfer yang digunakan untuk mengontrol dan memodifikasi server dari jarak jauh
+
+86. Berikut yang bukan layanan dari Firebase...
+
+    a. Authentication
+
+    b. Realtime Database
+
+    c. Remote Config
+
+   **d. Image Editor**
+
+## Menambahkan Anotasi Firebase di POJO Class
+
+87. Dikembangkan oleh perusahaan apa Firebase...
+
+    a. Alibaba
+
+    **b. Amazon**
+
+    **c. Google**
+
+    d. IBM
+
+## Menambahkan Data TopCharts
+
+88. Aplikasi yang dapat digunakan untuk mendesain tampilan aplikasi Android adalah...
+    
+    a. Framework
+    
+    b. Codeigneter
+
+    c. Drupal
+
+    **d. Android Studio**
+
+    e. Bootstrap
+
+89. Kelebihan dari Firebase...
+
+    a. Dapat digunakan untuk menambahkan librari secara otomatis
+
+    b. Adalah protokol transfer yang digunakan untuk mengontrol dan memodifikasi server dari jarak jauh
+
+    **c. Membantu kita membuat Realtime Database**
+
+    d. Untuk mengcompile Package yang tersedia oleh Android Studio secara bawaan
+
+90. Menggunakan apa untuk memberi komentar pada kode program...
+
+    a. ? ?
+
+    b. " "
+
+    c. **
+
+    d. //
+## Menambahkan Data Gambar ke Top Charts
+
+91. Apa fungsi Foreach...
+
+    a. Merupakan perulangan yang digunakan untuk menentukan nilai salah
+
+    **b. Merupakan perulangan khusus untuk pembacaan nilai array**
+
+    c. Digunakan untuk mendapatkan nilai berdasarkan waktu input data
+
+    d. Semua salah
+
+92. URI...
+
+    a. Adalah rangkaian karakter dengan format standar tertentu, yang digunakan sebagai penunjuk alamat dari sebuah sumber daya di internet
+
+    **b. Adalah teks yang didefinisikan untuk mengidentifikasi nama atau sumber daya apa pun yang tersedia di Internet**
+
+    c. Adalah gambar yang didefinisikan untuk mengidentifikasi nama atau sumber daya apa pun yang tersedia di Internet
+
+    d. Semua benar
+
+93. Singkatan dari URI...
+
+    a. Uniform Resource Locator
+
+    **b. Uniform Resource Identifier**
+
+    c. Uniform Resource International
+
+    d. Uniform Resource Intermediate
+    
+## Menambahkan Data Top Albums
+
+94. Menggunakan garis miring bintang (/*) digunakan untuk...
+
+    **a. Untuk komentar lebih dari satu baris**
+
+    b. Untuk memberikan komentar hanya satu baris
+
+    c. Untuk memberikan komentar satu kalimat
+
+    d. Untuk memberikan komentar hanya satu paragraf
+
+95. Pada kotlin, Var adalah...
+
+    a. Adalah object yang bersifat hybrid
+
+    **b. Adalah object Mutable dimana isinya dapat diubah ubah**
+
+    c. Adalah object yang bergantung pada object lainnya
+
+    d. Adalah object Immutable dimana isinya tidak dapat diubah ubah
+
+96. Pada kotlin, Val adalah...
+
+    a. Adalah object yang bergantung pada object lainnya
+
+    b. Adalah object Mutable dimana isinya dapat diubah ubah
+
+    c. Adalah object yang bersifat hybrid
+
+    **d. Adalah object Immutable dimana isinya tidak dapat diubah ubah**
+## Menambahkan data Image Top Albums
+
+97. Untuk define fungsi...
+
+    a. class
+
+    **b. fun**
+    
+    c. sec
+
+    d. make
+
+98. Untuk define class...
+
+    a. fun
+
+    **b. class**
+    
+    c. sec
+
+    d. make
+
+99. Datepicker digunakan untuk...
+
+    **a. Membantu memasukkan tanggal dengan memilih dari kalender tanpa memasukkan secara manual di kolom inputan**
+
+    b. Membantu memasukkan gambar dengan memilih dari galeri tanpa memasukkan secara manual di kolom inputan
+
+    c. Membantu memasukkan alamat dengan memilih dari peta tanpa memasukkan secara manual di kolom inputan
+
+    d. Membantu memasukkan email tanpa memasukkan secara manual di kolom inputan
+## Login Menggunakan Firebase
+
+100. Berikut yang bukan bagian dari Sign-in Method...
+
+    a. Email
+
+    b. Phone
+
+    c. Google
+
+    **d. Yii**
+
+101. Yang dimaksud dengan proses login...
+
+    a. Adalah proses keluar dari sistem, setelah sebelumnya melakukan login pada sistem
+
+    b. Adalah proses berpindah pindah halaman
+
+    **c. Proses pintu masuk bagi pengguna untuk mengakses sistem**
+
+    d. Semua salah
+
+## Register Menggunakan Firebase - 1
+
+102. Untuk menambahkan variabel Auth FirebaseAuth...
+
+    a. Private make var auth: FirebaseAuth
+
+    **b. Private lateinit var auth: FirebaseAuth**
+
+    c. Private create var auth: FirebaseAuth
+
+    d. Private lateinit var auth= FirebaseAuth
+
+103.   DatabaseReference...
+
+    a. Semua salah
+
+    b. Digunakan untuk mendapatkan nilai dari inputan
+
+    **c. Digunakan untuk membaca atau menulis data ke lokasi Database**
+
+    d. Untuk mendapatkan nilai dari field
+
+104.   Hak akses private...
+
+    **a. Adalah hak akses yang melarang method/property yang menggunakannya di larang diakses dari luar class**
+
+    b.  Digunakan dalam java yang memungkinkan setiap variabel dan method yang di deklarasikan dalam class
+
+    c. Yang deklarasikan untuk memproteksi suatu class agar setiap variabel dan method yang dideklarasikan tidak dapat di akses oleh non subclass di dalam package yang sama
+
+    d. A dan C benar
+    
+## Register Menggunakan Firebase - 2
+
+105. Apa itu null...
+
+    a. Digunakan sebagai tipe data default untuk nilai integral
+
+    **b. Suatu nilai pada suatu kolom yang berarti tidak mempunyai nilai**
+
+    c.  Digunakan hanya untuk menyimpan data berupa karakter
+
+    d.  Digunakan untuk menandai kondisi true/false
+
+106. Apa fungsi atribut not null...
+
+    a. Suatu nilai pada suatu kolom yang berarti tidak mempunyai nilai
+
+    **b. Untuk memastikan bahwa nilai pada kolom tersebut tidak boleh kosong**
+
+    c. Digunakan untuk menandai kondisi true/false
+
+    d. Digunakan sebagai tipe data default untuk nilai integral
+
+107. Biasanya pada tabel database terdapat auto increment, fungsi tersebut berguna untuk...
+
+    **a. Setiap kali menginputkan data, nilai pada kolom ini akan bertambah 1**
+
+    b. Setiap kali menginputkan data, nilai pada kolom ini akan bertambah 2
+
+    c. Setiap kali menginputkan data, nilai pada kolom ini akan bertambah 3
+
+    d. Setiap kali menginputkan data, nilai pada kolom ini akan bertambah 4
+## Logout di Firebase
+
+108.   Proses Logout...
+
+    a. Adalah proses berpindah pindah halaman
+
+    **b. Adalah proses keluar dari sistem, setelah sebelumnya melakukan login pada sistem**
+
+    c. Proses pintu masuk bagi pengguna untuk mengakses sistem
+
+    d. Semua salah
+
+109.   Compile adalah...
+
+    **a. Adalah proses pengubahan kode program (Source code) menjadi kode objek atau sebuah file**
+
+    b. Adalah proses membuat kode program
+
+    c. Adalah prose rendering untuk menampilkan gambar
+
+    d. Adalah prose rendering untuk menyimpan video
+
+110.   View Holder adalah...
+
+    **a. Berisi tampilan informasi untuk menampilkan satu item dari layout item**
+
+    b. Adalah sebuah parent layout yang memiliki parent layout lagi di dalamnya
+
+    c. Komponen untuk memberikan informasi kepada pengguna untuk melakukan suatu perintah
+
+    d. Adalah sekelompok tampilan yang menyejajarkan semua anak dalam satu arah, secara vertikal atau horizontal
+
+## Lupa Sandi di Firebase
+
+111.     Activity bersifat...
+
+    **a. Tidak hidup abadi selamanya, dia bisa diciptakan dan dihancurkan**
+
+    b. Hidup abadi selamanya, dia bisa diciptakan dan dihancurkan
+
+    c. Tidak hidup abadi selamanya, dia tidak bisa dihancurkan
+
+    d. Hidup abadi selamanya, dia tidak bisa dihancurkan
+
+112.   Singkatan Regex...
+
+    **a. Regular Expression**
+
+    b. Regular Express
+
+    c. Reading Expression
+
+    d. Record Expression
+
+113.   Digunakan untuk apa Regex...
+
+    a. Digunakan untuk menentukan object apa yang digunakan
+
+    b. Adalah pengorganisasian dari kumpulan data, umumnya di simpan dan di akses secara elektronik melalui sistem komputer
+
+    **c. Ekspresi yang digunakan untuk mencocokan sebuah string apakah memiliki suatu pola yang kita definisikan atau tidak**
+
+    d. Semua benar
+## Ganti Password di Firebase
+
+114.   oldPass digunakan untuk...
+
+    a. Untuk menyimpan data password baru
+
+    b. Digunakan untuk mendapatkan nilai password baru
+
+    c. Untuk menghapus data password lama
+
+    **d. Untuk menyimpan data password lama**
+
+115.   newPass digunakan untuk...
+
+    **a. Untuk menyimpan data password baru**
+
+    b. Digunakan untuk mendapatkan nilai password baru
+
+    c. Untuk menghapus data password lama
+
+    d. Untuk menyimpan data password lama
+
+116.   Tipe data Boolean...
+
+    **a.  Tipe yang memiliki dua nilai yaitu benar (true) atau salah (false)**
+
+    b. Tipe yang memiliki satu nilai yaitu benar (true)
+
+    c. Tipe yang memiliki satu nilai yaitu salah (false)
+
+    d. Tipe yang digunakan untuk menyimpan nilai integral
+## Fix Bug UI di LoginActivity dan RegisterActivity
+
+117.   Kondisi apa saat kita menggunakan tipe data Boolean...
+
+    **a. Digunakan dalam mengambil keputusan suatu kejadian tertentu**
+
+    b. Digunakan untuk menyimpan data dalam bentuk array
+
+    c. Tipe yang digunakan untuk menyimpan nilai integral
+
+    d. Digunakan untuk menyimpan data berisi karakter
+
+118.   Digunakan untuk apa ProgressBar...
+    
+    a. Digunakan untuk membuat gambaran kemajuan dalam bentuk grafik
+
+    **b. Berguna untuk membuat gambaran kemajuan sebuah proses dari suatu kinerja**
+
+    c. Berguna untuk menampilkan tulisan pada layar
+
+    d. Semua salah
+
+119.   android:textAllCaps="true"...
+
+    a. Menjadikan teks tidak ALL CAPS
+
+    b. Memberikan efek tulisan garis bawah
+
+    **c. Menjadikan teks ALL CAPS**
+
+    d. Menjadikan teks miring
+# Menampilkan Data dari Firebase
+
+## Menampilkan Data Top Charts dari Firebase
+
+120.   Atribut scaleType pada imageview...
+
+    a. Memungkinkan kita untuk memposisikan sebuah kalimat di dalam ImageView
+
+    b. Untuk menentukan ukuran gambar pada ImageView
+ 
+    **c. Memungkinkan kita untuk memposisikan sebuah gambar di dalam ImageView**
+
+    d. Semua salah
+
+121.   onResume() 
+    
+    a. dalah saat activity di hapus
+    
+    b. Adalah saat activity di stop
+    
+    **c. Adalah saat Activity dibuka kembali**
+    
+    d. Adalah saat Activity dimulai
+
+122.   onStart()...
+    
+    a. Adalah saat activity di buat
+    
+    b. Adalah saat activity di stop
+    
+    c. Adalah saat activity di hapus
+    
+    **d. Adalah saat Activity dimulai**
+
+## Menampilkan Top Albums di Firebase
+
+123.     Di bawah ini merupakan perulangan...
+
+    a. Nginx
+    
+    **b. For**
+    
+    c. Html
+    
+    d. Composer
+
+124.   Untuk memberikan title pada AlertDialog...
+
+    a. .Title()
+
+    **b. .setTitle()**
+
+    c. .Judul()
+
+    d. .setDesc()
+
+125.   Yang bukan perulangan...
+
+    **a. Nginx**
+    
+    b. For
+    
+    c. While
+    
+    d. Do while
+
+## Menampilkan Data My Tracks dari Firebase
+
+126.   .show() digunakan untuk...
+
+    **a. Untuk menampilkan informasi ke layar**
+
+    b. Untuk menghapus data
+
+    c. Untuk mengirimkan data ke database
+
+    d. Untuk mengubah data
+
+127.   Yang termasuk siklus hidup Activity adalah...
+
+    **a. Semua benar**
+
+    b. onResume()
+
+    c. onStart()
+
+    d. onCreate()
+
+128.   onPause()...
+
+    a. Activity berjalan ketika aplikasi dibuka
+
+    b. Menghancurkan activity yang sedang berjalan
+
+    c. Membuat activity baru
+
+    **d. Actvity dihentikan sementara karena ada activity lain berjalan**
+# Konfigurasi Lagu di PlaySongActivity
+## Memutar Lagu dari Firebase
+
+129.   Kemampuan class untuk menurunkan data ke pada objek...
+
+    a. Semua benar
+
+    b. Encapsulation
+
+    c. Inheritance
+
+    **d. Polymorphism**
+
+130.   Contoh dari view adalah...
+
+    a. Text field
+
+    b. Tombol
+
+    **c. Semua benar**
+
+    d. Text
+
+131.   Groupview berisi...    
+
+    a. Text field
+
+    b. Tombol
+
+   **c. Semua beanr**
+
+    d. Text
+
+## Menampilkan Progress dari Lagu
+
+132.   postDelayed()...
+
+    a. Akan menjalankan sesuatu secara langsung tanpa menunggu
+
+    **b. Akan menjalankan sesuatu setelah jangka waktu yang ditentukan berlalu**
+
+    c. Actvity dihentikan sementara karena ada activity lain berjalan
+
+    d. Semua salah
+
+133.   1000 milidetik sama dengan berapa detik...
+
+    a. 3 Detik
+
+    b. 2 Detik
+
+    c. 1.5 Detik
+
+    **d. 1 Detik**
+
+134.   SeekBar...
+
+    **a. Digunakan untuk menampilkan indikasi kemajuan suatu proses, dapat digeser maju atau mundur**
+
+    b. Digunakan untuk membuat gambaran kemajuan dalam bentuk grafik
+
+    c. Digunakan untuk menampilkan indikasi suatu dalam bentuk diagram batang
+
+    d. Digunakan untuk menampilkan indikasi suatu dalam bentuk diagram venn
+## Merubah Tombol Play ketika Menjalankan Lagu
+
+135.   Digunakan untuk apa Vector Asset...
+
+    **a. Digunakan untuk menambahkan ikon material dan mengimpor file Scalable Vector Graphic (SVG) dan Adobe Photoshop Document (PSD) ke dalam project**
+
+    b. Digunakan untuk menyimpan package yang telah didownload
+
+    c. Digunakan untuk mendapatkan nilai dari database
+
+    d. Semua salah
+
+136.   Kondisi IF Else...
+
+    a. Adalah kondisi jika pernyataan benar semua maka else akan dieksekusi
+
+    b. Adalah kondisi jika pernyataan salah salah makan if akan dieksekusi
+
+    **c. Adalah kondisi dimana jika pernyataan benar (True) maka kode dalam IF akan dieksekusi, tetapi jika bernilai salah (False) maka akan mengeksekusi kode di dalam ELSE**
+
+    d. Kondisi jika pernyataan tidak ada yang benar atau salah, maka tidak ada yang dieksekusi
+
+137.     Yang tidak termasuk sebagai karakteristik software adalah...
+    
+    A. software bersifat logic
+    
+    **B. software tidak rusak**
+
+    C. software tergantung pada hardware
+    
+    D. software pada umumnya dikembangkan
+
+## Menambahkan Fitur Ganti Menjalankan Lagu Berikutnya
+
+138.   Android:layout_weight...
+
+    a. Digunakan untuk menentukan tinggi dari layout
+
+    **b. Digunakan untuk menentukan besaran area layout sesuai perbandingan bobot dalam layout**
+
+    c. Digunakan untuk mendapatkan nilai ukuran dari layout
+
+    d. Semua salah
+
+139.   Fungsi operator pembanding ==...
+
+    a. Tidak Sama dengan
+
+    **b. Sama Dengan**
+
+    c. Lebih Besar Sama dengan
+
+    d. Lebih Kecil Sama dengan
+
+140.   Fungsi dari recreate(); adalah...
+ 
+    a. Mengubah layout tertampil. 
+    
+    b. Restart Activity
+    
+    **c. Membuat Activity baru**
+    
+    d. Semua jawaban benar
+
+## Cek Tombol Prev dan Next Song
+
+141.   Fungsi operator pembanding >...
+
+    a. Tidak Sama dengan
+
+    b. Sama Dengan
+
+    c. Lebih Besar
+
+    d. Lebih Kecil Sama dengan
+
+142.   Untuk menghapus elemen dari list...
+
+    a. Bin()
+
+    b. Delete()
+
+    c. Trash()
+
+    **d. Clear()**
+
+143.    Di bawah ini yang bukan tipe data...
+
+    a. Float
+
+    b. String
+
+    c. Int
+
+    **d. Html**
+
+## Menambahkan Lagu ke My Tracks
+
+144.   Versi Android 5.0 diberi nama...
+
+    a. JellyBean
+
+    b. Oreo
+
+    c. KitKat
+
+    **d. Lollipop**
+
+145.   Sistem Android berbasis...
+
+    a. HarmonyOS
+
+    b. MacOS
+
+    c. Windows
+
+   **d. Linux**
+
+146.   Database adalah...
+
+    **a. Adalah pengorganisasian dari kumpulan data, umumnya di simpan dan di akses secara elektronik melalui sistem komputer**
+
+    b. Adalah merupakan sebuah library framework CSS yang telah dibuat khusus uintuk mengembangkan front end sebuah website
+
+    c. Adalah suatu sistem atau software yang dirancang khusus untuk mengelola suatu server
+
+    d. Adalah protokol transfer yang digunakan untuk mengontrol dan memodifikasi server dari jarak jauh
+
+## Cek Tombol My Track di PlaySongActivity
+
+147.   Hak akses Protected...
+
+    **a. Properti atau method tersebut tidak bisa diakses dari luar class, namun bisa diakses oleh class itu sendiri atau turunan class tersebut**
+
+    b. Adalah hak akses yang melarang method/property yang menggunakannya di larang diakses dari luar class
+    
+    c. Yang deklarasikan untuk memproteksi suatu class agar setiap variabel dan method yang dideklarasikan tidak dapat di akses oleh non subclass di dalam package yang sama
+
+    d. Semua salah
+
+148.   Berikut yang bukan Database...
+    
+    a. SQlite
+
+    b. MariaDB
+
+    c. MySQL
+
+    **d. CodeIgniter**
+## Menghapus Lagu dari MyTracks
+
+149.   Berikut founder dari Android...
+
+    a. Andy Hawk
+
+    b. Mark Antonio
+
+    c. Bill Gates
+
+    **d. Andy Rubin**
+
+150.   Berikut keunggulan Android, kecuali...
+
+    **a. Close Source**
+
+    b. Support berbagai tekonologi seperti Wifi, Bluetooth, Camera
+
+    c. Highly optimized Virtual Machine
+
+    d. Open Source
+
+## Memperbaiki Bug di bagian MyTracksFragment
+
+151.   Berikut yang bukan metode life cycle dari activity...
+
+    a. onCreate()
+
+    b. onStart()
+
+    c. onResume()
+
+   **d. onClose()**
+
+152.   Implicit Intent...
+
+    **a. Merupakan intent yang berfungsi untuk melakukan perpindahan antar activity ke activity lain dengan cakupan seluruh aplikasi**
+
+    b. Adalah kondisi di mana sebuah parent layout yang memiliki parent layout lagi di dalamnya
+
+    c. Berfungsi untuk mendapatkan data dari inputan user
+
+    d. Semua salah
+
+# Penutup
+## Penutup
+
+153.   Cloud Firestore...
+
+    **a. Adalah database NoSQL yang dihosting di cloud dan dapat diakses langsung oleh aplikasi iOS, Android, dan web Anda melalui SDK native**
+
+    b. Adalah suatu sistem atau software yang dirancang khusus untuk mengelola suatu database
+
+    c. Adalah suatu sistem atau software yang dirancang khusus untuk mengelola suatu VPS
+
+    d. Adalah protokol transfer yang digunakan untuk mengontrol dan memodifikasi server dari jarak jauh
+
+154.   Singkatan dari VPS...
+
+    **a. Virtual Private Server**
+    
+    b. Virtual Portable Server
+    
+    c. Virtual Process Server
+    
+    d. Virtual Port Server
