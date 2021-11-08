@@ -953,7 +953,7 @@
 
     c. **
 
-    d. //
+    **d. //**
 ## Menambahkan Data Gambar ke Top Charts
 
 91. Apa fungsi Foreach...
@@ -1634,3 +1634,4 @@
     c. Virtual Process Server
     
     d. Virtual Port Server
+
