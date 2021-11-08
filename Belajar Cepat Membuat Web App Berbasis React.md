@@ -35,11 +35,11 @@
   
     **a. Ketika konstanta ini sudah diberikan value, maka di baris berikutnya sudah tidak dapat diubah menjadi value yang lain**
     
-    b.
+    b. Karena variabel tidak sesuai dengan tipe data
     
-    c.
+    c. Ketika konstanta ini sudah diberikan value, maka di baris berikutnya sudah dapat diubah menjadi value yang lain
     
-    d.
+    d. Semua salah
 
 5. let singkatan dari...
 
@@ -133,7 +133,7 @@
 
     c. Array adalah tipe data terstruktur yang berfungsi untuk menyimpan sejumlah data yang tipenya berbeda
 
-     **d. Array adalah tipe data terstruktur yang berfungsi untuk menyimpan sejumlah data yang tipenya sama**
+    **d. Array adalah tipe data terstruktur yang berfungsi untuk menyimpan sejumlah data yang tipenya sama**
 
 14. Destructuring sangat berguna saat...
 
@@ -461,23 +461,23 @@
 
 45. Yang dimaksud dengan Class Based...
 
-    a.
+    **a. Class harus mengimplementasikan fungsi anggota render() yang mengembalikan komponen React yang akan dirender**
 
-    b.
+    b. Class harus mengirimkan fungsi anggota render() yang akan mengembalikan komponen React yang akan dirender
 
-    c.
+    c. Semua salah
 
-    d.
+    d. fungsi Javascript yang mengambil parameter tunggal atau objek props dan mengembalikan komponen React
 
 46. Yang dimaksud dengan Function Based...
 
-    a.
+    **a. fungsi Javascript yang mengambil parameter tunggal atau objek props dan mengembalikan komponen React**
 
-    b.
+    b. Class harus mengimplementasikan fungsi anggota render() yang mengembalikan komponen React yang akan dirender
 
-    c.
+    c. Class harus mengirimkan fungsi anggota render() yang akan mengembalikan komponen React yang akan dirender
 
-    d.
+    d. Semua salah
 
 ## Konten Dinamis dan Props
 
@@ -1069,11 +1069,35 @@
 
 ## Merubah Aplikasi Menjadi Component Based
 
-103.
+103. Import component members...
 
-104
+    a. get Members from './components/Members/Members'
 
-105
+    **b. import Members from './components/Members/Members'**
+
+    c. Members from './components/Members/Members'
+
+    d. redirect Members from './components/Members/Members'
+
+104. Extends...
+
+    a. Untuk mengirimkan fungsi ke class lain
+
+    b. Untuk menghapus fungsi dari class
+
+    c. Semua salah
+
+    **d. Untuk memanggil fungsi dari class lain**
+
+105. Inheritance...
+
+    **a. Class dapat menurunkan property dan method yang dimilikinya kepada class lain**
+
+    b. Class dapat menurunkan object dan method yang dimilikinya kepada class lain
+
+    c. Class dapat mendapatkan property dan method yang dimilikinya kepada class lain
+
+    d. Semua salah
 # React Routing
 
 ## Routing pada React
@@ -1597,7 +1621,7 @@
 
     b. login
 
-    c. firebase login
+    **c. firebase login**
 
     d. run firebase login
 
@@ -1610,13 +1634,3 @@
     c. Remote Config
 
    **d. Image Editor**
-
-156. 84. Firebase adalah...
-
-    **a.  Firebase merupakan salah satu layanan dari Google yang memudahkan para app developer dalam mengembangkan aplikasi mereka. Firebase termasuk ke dalam kategori Baas (Backend as a Service)**
-
-    b. Adalah merupakan sebuah library framework CSS yang telah dibuat khusus uintuk mengembangkan front end sebuah website
-
-    c. Adalah suatu sistem atau software yang dirancang khusus untuk mengelola suatu server
-
-    d. Adalah protokol transfer yang digunakan untuk mengontrol dan memodifikasi server dari jarak jauh
