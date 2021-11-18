@@ -747,7 +747,7 @@
 
     **c. Application Programming Interface**
 
-    d. Apointment Programming Interface
+    d. Appointment Programming Interface
 
 ## Menampilkan Detail Data Produk Dengan Relasi Image Dan User
 
@@ -819,13 +819,13 @@
 
 76. Pagination...
 
-    a. 
+    a. Proses mengelola konten menjadi satu halaman
 
-    b.
+    b. Proses membagi konten menjadi beberapa sistem
 
     **c. Proses membagi konten menjadi beberapa halaman terpisah**
 
-    d. 
+    d. Semua salag
 
 77. Fungsi operator pembanding ==...
 
