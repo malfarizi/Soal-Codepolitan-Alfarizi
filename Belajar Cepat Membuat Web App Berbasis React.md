@@ -345,11 +345,11 @@
 
     d.  Perintah winver -v
 
-34. Bagaimana cara untuk memastikan apakah NPM sudah terinstall di komputer...
+34. Bagaimana cara untuk memastikan apakah php sudah terinstall di komputer...
 
     a. Perintah Composer -v
 
-    **b. Perintah NPM -v**
+    **b. Perintah php -v**
 
     c. Perintah Node -v
 

@@ -915,7 +915,7 @@
 
     a. Alibaba
 
-    **b. Amazon**
+    b. Amazon
 
     **c. Google**
 
@@ -1491,7 +1491,7 @@
 
     b. Sama Dengan
 
-    c. Lebih Besar
+    **c. Lebih Besar dari**
 
     d. Lebih Kecil Sama dengan
 
