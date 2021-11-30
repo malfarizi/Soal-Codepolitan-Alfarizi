@@ -825,7 +825,7 @@
 
     **c. Proses membagi konten menjadi beberapa halaman terpisah**
 
-    d. Semua salag
+    d. Semua salah
 
 77. Fungsi operator pembanding ==...
 
