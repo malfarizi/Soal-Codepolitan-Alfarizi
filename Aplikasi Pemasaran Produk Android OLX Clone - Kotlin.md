@@ -689,6 +689,8 @@
 
     c. Digunakan untuk membuat repository baru
 
+    **d. Digunakan untuk clone project dari github**
+
 65. Apa itu Seed...
 
     a. Seed adalah penghubung antara Model dengan View
