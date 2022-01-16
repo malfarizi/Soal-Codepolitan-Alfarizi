@@ -169,6 +169,16 @@
 
     d. Semua salah
 
+17. Istilah Fake data adalah...
+
+    a. Data asli
+
+    **b. Data Palsu**
+
+    c. Data realtime
+
+    d. Data pengguna
+
 18. Android:title...
 
     **a. Digunakan untuk memberi judul pada sebuah komponen**
